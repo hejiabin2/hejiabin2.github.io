@@ -1,0 +1,462 @@
+#shouye{
+    width: 100%;
+    height: 3156px;
+
+}
+.content{
+    width: 1240px;
+    height: 100%;
+   
+    margin: auto;
+}
+.p16{
+    font-size: 16px;
+    line-height: 16px;
+    color: #23ac38;
+}
+.p14{
+    font-size: 14px;
+    line-height: 14px;
+    color: #ccc;
+}
+h4{
+    border-left:  2px solid #23ac38;
+    padding-left: 5px;
+    display: inline-block;
+}
+/* ---------head开始-------- */
+
+#shouye .head{
+    width: 100%;
+    height: 116px;
+    
+    background: #fff;
+
+}
+.head .content{
+    position: relative;
+}
+#shouye h1{
+    width: 135px;
+    height: 44px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    text-indent: -999px; 
+    position: absolute;  
+    top: 30px;
+    left: 241px;
+
+}
+.head .head-input{
+    width: 522px;
+    height: 36px;
+    border: 1px solid #23ac38;
+    position: absolute;
+    left: 417px;
+    top: 34px;
+    background-image: url(../images/search.png);
+    background-repeat: no-repeat;
+    background-position: 360px 8px;
+
+
+}
+.head .head-input .span1{
+    font-size: 12px;
+    line-height: 36px;
+    color: #ccc;
+    width: 60px;
+
+}
+.head .head-input .head-right{
+    width: 118px;
+    height: 100%;
+    float: right;
+    background: #23ac38;
+    text-align: center;
+}
+
+.head .head-input input{
+    display: inline;
+    line-height:34px;
+       
+}
+.head .head-input  a{
+    color: #fff;
+    display: block;
+    line-height: 34px;
+    font-size: 14px;
+}
+/* -----------nav开始-------- */
+.nav{
+    width: 100%;
+    height: 61px;
+    background: #f5f5f5;
+
+}
+.nav .content{
+    background: #f5f5f5;
+}
+.nav ul{
+    width: 1240px;
+    height: 61px;
+    text-align: center;
+
+}
+.nav ul li{
+    float: left;
+    font-size: 16px;
+    line-height: 61px;
+    width: 112px;
+    height: 61px;
+}
+.nav a{
+    color: black;
+    display: inline-block;
+    line-height: 61px;
+
+}
+.nav li:hover a{
+    color: #23ac38;
+
+}
+/* ---------banner开始------- */
+.banner {
+    width: 100%;
+     height: 392px;
+     background-image: url(../images/banner.png);
+}
+.banner-nav{
+    width: 100%;
+    height: 108px;
+    border-bottom:1px solid #ccc;
+   
+
+}
+.banner-nav .left{
+    width: 412px;
+    height: 108px;
+    float: left;
+    
+    position: relative;
+
+}
+.banner-nav .left .text{
+    font-size: 16px;
+    line-height: 16px;
+     margin-top: 36px;
+     padding: 0px 0px 0px 155px;
+     border-right: 1px solid #ccc;
+}
+.banner-nav .left .p12{
+    font-size: 12px;
+    line-height: 12px;
+    color: #ccc;
+    padding-left: 155px;
+    padding-top: 10px;
+    border-right: 1px solid #ccc;
+
+}
+
+
+.banner-nav .cent{
+    width: 412px;
+    height: 108px;
+    float: left;
+    position: relative;
+   
+
+}
+.banner-nav .cent .text{
+    font-size: 16px;
+    line-height: 16px;
+     margin-top: 36px;
+    padding-left: 230px;
+     border-right: 1px solid #ccc;
+}
+.banner-nav .cent .p12{
+    font-size: 12px;
+    line-height: 12px;
+    color: #ccc;
+    padding-left: 230px;
+    padding-top: 10px;
+    border-right: 1px solid #ccc;
+
+}
+
+.banner-nav .right{
+    width: 412px;
+    height: 108px;
+    float: left;
+    
+    position: relative;
+
+}
+.banner-nav .right .text{
+    font-size: 16px;
+    line-height: 16px;
+     margin-top: 36px;
+    padding-left: 150px;
+     border-right: 1px solid #ccc;
+}
+.banner-nav .right .p12{
+    font-size: 12px;
+    line-height: 12px;
+    color: #ccc;
+    padding-left: 150px;
+    padding-top: 10px;
+    border-right: 1px solid #ccc;
+
+}
+.banner-nav .icon1{
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    top: 26px;
+    left: 76px;
+    background-image: url(../images/logos.png);
+
+}
+.banner-nav .icon2{
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    top: 26px;
+    left: 76px;
+    
+    background-image: url(../images/logos.png);
+    background-position: 0px -75px;
+    
+
+}
+.banner-nav .icon3{
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    top: 26px;
+    left: 160px;
+    border-left: 1px solid #ccc;
+    background-image: url(../images/logos.png);
+    background-position: -90px -75px;
+}
+
+.banner-nav .icon4{
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    top: 26px;
+    left: 76px;
+    
+    background-image: url(../images/logos.png);
+    background-position: 0px -152px;
+    
+}
+.banner-nav .left:hover{
+    border-bottom: 3px solid #23ac38;
+}
+.banner-nav .cent:hover{
+    border-bottom: 3px solid #23ac38;
+}
+.banner-nav .right:hover{
+    border-bottom: 3px solid #23ac38;
+}
+/* -----------main1开始--------- */
+.main1{
+    width: 100%;
+    height: 242px;
+    margin-top: 30px;
+    
+
+}
+.main1-left{
+    width: 898px;
+    height: 291px;
+    overflow: hidden;
+    
+    float: left;
+}
+.main1 .main1-left .box{
+    width: 100%;
+    height: 212px;
+}
+.main1 .main1-left .box1{
+    width: 290px;
+    height: 210px;
+     float: left;
+     border: 1px solid #ccc;
+     margin-right: 5px;
+     text-align: center;
+
+}
+.main1 .main1-left .p12{
+    font-size: 12px;
+    line-height: 44px;
+
+}
+.main1-right.box1{
+    width: 326px;
+    height: 39px;
+}
+.main1-right .box2{
+    width: 327px;
+    height: 208px;
+
+}
+.main1-right .box3{
+    width: 100px;
+    height: 58px;
+    float: left;
+    border: 1px solid #ccc;
+    background-repeat: no-repeat;
+    background-position: 38px 15px;
+    text-align: center;
+    padding-top: 50px
+}
+.main1 .main1-right{
+    width: 329px;
+    height: 247px;
+    float: left;
+}
+.main1 .main1-right.p12{
+    font-size: 12px;
+    line-height: 12px;
+
+
+}
+.main1 .main1-right .p8{
+    font-size: 8px;
+    
+}
+/* ------------main2开始------- */
+.main2{
+    width: 100%;
+    height: 181px;
+   
+    margin-top: 30px;
+
+
+}
+.main2 .top{
+    width: 100%;
+    height: 39px;
+
+}
+.main2 .bootm{
+    width:  1240px;
+    height: 140px;
+    margin: auto;
+
+}
+.main2 .bootm .box{
+    width: 390px;
+    height: 121px;
+    float: left;
+    border: 1px solid #ccc;
+    margin-right: 30px;
+    background-repeat: no-repeat;
+    background-position: 25px 20px;
+    position: relative;
+}
+.main2 h4{
+    border-left:  2px solid #23ac38;
+    padding-left: 5px;
+    display: inline-block;
+}
+.main2 .p16{
+    font-size: 16px;
+    line-height: 16px;
+    color: #23ac38;
+}
+.main2 h3{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 30px;
+
+}
+.main2  .juyou{
+    width: 246px;
+    height: 121px;
+    position: absolute;
+    right: 0px;
+}
+.main .p14{
+    font-size: 14px;
+    line-height: 26px;
+    color: #ccc;
+}
+/* -----------main3开始------- */
+.main3{
+    width: 100%;
+    height: 774px;
+   
+}
+.main3 .main3-b{
+     
+    width: 100%;
+    height: 774px;
+}
+.main3 .main3-f{
+    width: 609px;
+    height: 100%;
+    float: left;
+ 
+}
+.main3 .main3-r{
+    width: 609px;
+    height: 100%;
+    float: left;
+ 
+    margin-left: 21px;
+}
+.main3 .main3-f .top{
+    width: 100%;
+    height: 38px;
+     
+}
+.main3 .main3-f .top-1{
+    width: 609px;
+    height: 564px;
+
+}
+.main3 .main3-f .top-1 ul{
+    width: 609px;
+    height: 564px;
+
+}
+.main3 .main3-f .top-1 ul li{
+    width: 302px;
+    height: 143px;
+    float: left;
+    border: 1px solid #ccc;
+    background-repeat: no-repeat;
+    background-position: 30px 40px;
+
+
+}
+.main3 .main3-f .top-1 .box{
+    width: 200px;
+    height: 100%;
+    float: right;
+    
+
+}
+.main3 .main3-f .top-1 .box .bp16{
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 45px;
+    
+
+}
+.main3 .main3-f .top-1 .box .bp14{
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 45px;
+     
+    margin-top: 20px;
+
+    
+    
+}
+
+
+

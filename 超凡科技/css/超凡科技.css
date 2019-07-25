@@ -1,0 +1,619 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+#box{
+    width: 100%;
+    height: 100%;
+   
+}
+.content{
+    width: 1150px;
+    height: 100%;
+    margin: auto;
+    
+ 
+}
+/* -------head开始--------- */
+.head .guding{
+    width: 48px;
+    height: 189px;
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    background: #4c336c;
+}
+.head .guding ul{
+    width: 48px;
+    height: 189px;
+
+}
+.head .guding a{
+    width: 48px;
+    height: 47px;
+    display: block;
+    line-height: 47px;
+}
+.head .guding ul li{
+    width: 48px;
+    height: 47px;
+    float: left;
+    position: relative;
+    border-bottom: 1px solid black;
+}
+ 
+.head .guding .liang{
+     display: none;
+}
+.head .guding ul li:hover .liang{
+    display: block;
+     
+}
+.head .guding ul li:hover .an{
+    display: none;
+     
+}
+
+
+
+.head{
+    width: 100%;
+    height: 80px;
+   
+}
+.head .content{
+    background: #fff;
+}
+.head h1{
+    text-indent: -999px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 100%;
+    background-position: center center; 
+    float: left;
+}
+.head ul {
+    width: 750px;
+    height: 100%;
+    text-align: center;
+    float: right;
+    font-size: 12px;
+    line-height: 80px;
+
+   
+}
+.head ul li{
+    float: left;
+    width: 90px;
+   
+}
+li .yw{
+    display: none;
+    text-transform: uppercase;
+    color: blue;
+}
+a:link{
+    color: black;
+
+}
+a{
+    line-height: 80px;
+    display: block;
+    color: black;
+}
+li:hover .zw{
+    display: none;
+
+}
+li:hover .yw{
+    display:block;
+
+}
+/* ---------banner开始-------- */
+.banner{
+    height: 451px;
+    background-image: url(../images/56f3527bb57ce.jpg);
+    background-size: 100% 100%;
+}
+/* -------main1开始--------- */
+.main1{
+    width: 100%;
+    height: 650px;
+    text-align: center;
+    position: relative;
+  
+
+}
+.main1 .content {
+    background: #fff;
+    position: relative;
+}
+.main1 .content h2{
+  
+    background-image: url(../images/bus_h2.jpg) ;
+    background-position: center center;
+    height: 44px;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+   
+}
+.content .p16{
+    font-size: 16px;
+    line-height: 22px;
+    color: #6679a4;
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+.main1 .bbox{
+    width: 1150px;
+    height: 450px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.main1 .content .box{
+    width: 351px;
+    height: 220px;
+    margin-right: 20px;
+    position: relative;
+    float: left;
+    margin-top: 6px;
+    
+    }
+.main1 .biaoti{
+    position: absolute;
+    width: 270px;
+    height: 70px;
+    background: #6bb2ce;
+    text-align: center;
+    line-height: 70px;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  
+}
+.main1 .wenzi{
+    width: 100%;
+    height: 0%;
+    background: #4267bb;
+     /* display: none; */
+    color: #fff;
+    position: absolute;
+    top: 0px;
+    transition: height 0.3s;
+    font-size: 18px;
+    overflow: hidden;
+
+}
+.main1 .box:hover .wenzi{
+    /* display: block; */
+    height: 100%
+
+}
+
+/* ------main2开始------ */
+.main2{
+    height: 764px;
+    text-align: center;
+    background: #ebeff1;
+    
+}
+.main2 .content{
+    background: #ebeff1;
+    overflow: hidden;
+}
+.main2 .content h2{
+  
+    background-image: url(../images/clien_h2.jpg) ;
+    background-position: center center;
+    height: 44px;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+   
+}
+.main2 .content .p16{
+    font-size: 16px;
+    line-height: 22px;
+    color: #6679a4;
+    margin-top: 28px;}
+ .main2 .content {
+        width: 1140px;
+        height: 100%;
+        margin: auto;
+        background: #ebeff1;
+        
+
+    } 
+    .main2 .content  ul{
+        height: 502px;
+        width: 1140px;
+         margin-top: 100px;
+    }
+    .main2 .content  ul li{
+        width: 280px;
+        height: 165px;
+        float: left;
+        margin-right: 4px;
+        margin-bottom: 2px;
+       
+
+    }
+   .main2 a,img {
+        display: block;
+    }
+    .main2 .liang{
+        display: none;
+
+    }
+    .main2 li:hover .an{
+        display: none;
+    }
+    .main2 li:hover .liang{
+        display: block;}
+
+/* ---------main3开始------ */
+.main3{
+    height: 680px;
+    width: 100%;
+    text-align: center;
+    
+}
+.main3 .content{
+    background: white;
+
+}
+.main3 .content h2{
+  
+    background-image: url(../images/work_h2.jpg) ;
+    background-position: center center;
+    height: 44px;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+   
+}
+.main3 ul{
+    width: 1140px;
+    height: 422px;
+    margin-top: 50px;
+     margin: auto;
+}
+.main3 ul li{
+    width: 280px;
+    height: 210px;
+    float: left;
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
+.main3 ul li img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+/* ---------main4开始------ */
+.main4{
+    width: 100%;
+    height: 800px;
+   
+    
+}
+.main4 .content {
+    background-image: url(../images/ind_news_bg.jpg);
+    background-size: 100% 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.main4 .content h2{
+  
+    background-image: url(../images/news_h2.jpg) ;
+    background-position: center center;
+    height: 44px;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+   
+}
+.main4 span{
+    font-size: 8px;
+    line-height: 8px;
+    color: #ccc;
+    position: relative;
+    top: 20px;
+
+}
+.main4 .spanl
+{float: left;}
+.main4 .spanr
+{float: right;}
+.main4 ul{
+    width: 1141px;
+    height: 530px; 
+    margin: auto;
+    margin-top: 90px;
+}
+
+.main4 ul li{
+    width: 550px;
+    height: 170px;
+    float: left;
+    margin-bottom: 12px;
+    margin-right: 20px;
+    background: #fff; 
+ 
+}
+.main4 .box{
+    width: 370px;
+    height: 100%;
+    float: left;
+}
+.main4 .box-l{
+    width: 174px;
+    height: 166px;
+    float: left;
+}
+.main4 .p14{
+    font-size: 14px;
+    line-height: 14px;
+    color: #4c336c;
+    margin-top: 30px;
+
+}
+.main4 .p12{
+    font-size: 12px;
+    margin-top: 10px;
+    line-height: 22px;
+    color: #998899;
+      width: 300px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp:3;
+      -webkit-box-orient: vertical;
+}
+/* ---------main5开始-------- */
+.main5{
+    height: 910px;
+    width: 100%;
+
+}
+.main5 .content h2{
+  
+    background-image: url(../images/exp_h2.jpg) ;
+    background-position: center center;
+    height: 44px;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+   
+}
+.main5 .content{
+    background: #fff;
+    text-align: center;
+}
+
+.main5 .content .p16{
+    font-size: 16px;
+    line-height: 22px;
+    color: #6679a4;
+    margin-top: 28px;}
+.main5 .content .bot{
+    height:470px;
+    width: 1140px;
+    background-image: url(../images/expe_rz_tu.png);
+    background-size: 100% 100%;    
+    margin: auto;
+    margin-top: 20px;
+
+}
+.main5  ul{
+    text-align: center;
+    color: #ccc;
+    border-bottom: 2px solid #ccc;
+    width: 1141px;
+    height: 160px;
+    margin: auto;
+
+}
+.main5 ul li{
+    float: left;
+    width: 280px;
+    height: 100%;
+    position: relative;
+}
+.main5 ul img{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.main5 a {
+    line-height: 160px;
+}
+.main5 .an{
+    display: block;
+}
+.main5 .liang{
+    display: none;
+}
+.main5 li:hover .liang{
+    display: block;
+   
+}
+.main5 li:hover {
+    border-bottom: 2px solid #0093dd;
+}
+
+.main5 .spanwenzi{
+    font-size: 16px;
+
+    line-height: 16px;
+    color: #b2c2dd;
+    display: block;
+    position: relative;
+    top: 130px;
+}
+
+/* -----main6开始------- */
+
+.main6{
+    height: 225px;
+    width: 100%;
+    background-image: url(../images/blue-bg.png);
+
+}
+ 
+
+.main6 .content .box{
+    width: 380px;
+    height: 222px;
+
+    border-right: 1px solid  #ccc;
+    float: left;
+    text-align: center;
+     
+}
+.main6 h2{
+    height: 70px;
+    width: 100%;
+    position: relative;
+    top: 60px;
+}
+.main6 .span1{
+    font-size: 70px;
+    line-height: 70px;
+    color: #fff;
+}
+.main6 .span2{
+    background-image:url(../images/blue-bg.png) ;
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.main6 .p14{
+    font-size: 14px;
+    line-height: 14px;
+    color: #fff;
+    position: relative;
+    top: 90px;
+
+}
+/* ------------main7开始------- */
+.main7{
+    width: 100%;
+    height: 670px;
+    background-image: url(../images/footer_bj.jpg);
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.main7 h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: normal;
+    margin-top: 42px;
+}
+.main7 h2{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 24px;
+    margin-top: 40px;
+
+}
+.main7 .bbox{
+    width: 1200px;
+    height: 220px;
+    margin-top: 40px;
+    margin: auto;
+}
+.main7 .box1{
+    width: 268px;
+    height: 82px;
+    float: left;
+    margin-right: 20px;
+
+    margin-top: 10px;
+    background-repeat: no-repeat;
+ 
+  
+
+}
+.main7 .box2{
+    width: 268px;
+    height: 82px;
+    float: left;
+    margin-right: 20px;
+    border: 1px solid #aaaaaa;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+
+}
+.main7 .box2-right{
+    width: 170px;
+    height: 82px;
+    margin-left: 80px;
+    float: left;
+    text-align: center;   
+}
+.main7 p{
+    color: white;
+}
+.main7 .p1{
+    color: #878787;
+}
+.main7 img{
+    float: left;
+}
+.main7 .p2{
+    color: #878787;
+    font-size: 16px;
+    line-height: 80px;
+}
+.main7 .zuofu{
+    width: 570px;
+    height: 100%;
+    float: left;
+}
+.main7 .foot ul{
+        width: 400px;
+        height: 140px;
+        float: right;
+
+}
+.main7 .foot ul li{
+    width: 140px;
+    height: 100%;
+    float: left;
+    margin-right: 18px;
+    background-size: 100% 100%;
+}
+
+.main7 .foot .p12{
+    font-size: 12px;
+    line-height: 28px;
+    color: #ccc;
+}
+.main7 hr{
+    width: 2px;
+    color: #ccc;
+    margin-top: 70px;
+}
+
+
+
+
+ 

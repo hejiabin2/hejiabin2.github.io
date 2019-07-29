@@ -1,0 +1,154 @@
+
+img{
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+ 
+
+.main .main1 ul{
+    height: 84px;
+    float: left;
+    /* list-style-type: none; */
+    
+}
+ .main .main1 ul a{
+    color: black;
+}
+.main .main1 ul a:hover{
+    color: orange;
+}
+.main .main1 ul li{
+    float: left;
+     
+    width: 110px;
+    font-size: 14px;
+    line-height: 84px;
+}
+.main .main1 .span1{
+    font-size: 12px;
+    line-height: 84px;
+    color: #ccc;
+}
+.main .main1 .boxx{
+    width: 570px;
+    height: 170px;
+    float: left;
+   
+}
+.main .main1 .boxx-title{
+    width: 300px;
+    height: 170px；
+    
+    
+
+}
+
+.main .main1 .p14{
+    font-size: 12px;
+    line-height: 24px;
+    color: #ccc;
+    
+}
+.main .main1 .bp14{
+    font-size: 12px;
+    line-height: 26px;
+    margin-top: 20px;
+    
+}
+/* ------------main2开始-------- */
+.main .main2{
+    background: #f8f8f8;
+    width: 100%;
+}
+.main .main2 .main2-t{
+    height: 80px;
+    width: 100%;
+   
+}
+.main .main2 h4{
+    font-size: 26px;
+    line-height: 80px;
+
+}
+.main .main2 .p14{
+    font-size: 12px;
+    line-height: 80px;
+    color: #9b9b9b;
+    
+}
+.main .main2 .bp14{
+    font-size: 12px;
+    line-height: 12px;
+    margin-left: 20px;
+    display: block;
+    margin-top: 45px;
+       
+}
+.main .main2 .beijing{
+    height: 120px;
+    background-image: url(../images/bg-help.png);
+    padding-top: 53px;
+    padding-left: 247px;
+    position: relative;
+}
+.main .main2 .beijing .juli{
+    margin-top: 20px;
+
+}
+.main .main2 .beijing .qiuzhu{
+    width: 180px;
+    height: 60px;
+    background: orange;
+    text-align: center;
+    color: white;
+     position: absolute;
+     top: 50px;
+     right: 150px;
+     line-height: 60px;
+
+}
+.main .bottm{
+    width: 100%;
+}
+.main .bottm .box{
+    width: 272px;
+    height: 333px;
+    background: white;
+    float: left;
+    margin-right: 36px;
+
+}
+.main .bottm .box .span1{
+    
+    height: 24px;
+    display: inline-block;
+    background: pink;
+    margin-left: 5px;
+    margin-top: 5px;
+
+}
+.main .bottm .box  ul{
+    margin-left: 10px;
+    list-style-type: none;
+
+}
+.main .bottm .box  ul li{
+font-size: 14px;
+line-height: 30px;
+height: 30px;
+color: #9b9b9b;
+background-image: url(../images/icon-q.png);
+background-repeat: no-repeat;
+background-position: 0px 0px;
+padding-left: 25px;
+
+}
+

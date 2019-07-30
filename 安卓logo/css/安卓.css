@@ -1,0 +1,94 @@
+.box{
+    width: 500px;
+    height: 500px;
+    background: #ccc;
+    margin: auto;
+    position: relative;
+
+
+}
+.tou{
+    width: 200px;
+    height: 100px;
+    background: #51a251;
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+    position: absolute;
+    left: 150px;
+    top: 20px;
+
+
+}
+.yanjing1{
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 100%;
+    position: absolute;
+    left: 210px;
+    top: 67px;
+}
+.yanjing2{
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 100%;
+    position: absolute;
+    right: 210px;
+    top: 67px;
+}
+.shenti{
+    width: 200px;
+    height: 230px;
+    background: #51a251;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    left: 150px;
+    top: 130px;
+
+
+
+}
+.gebo1{
+    width: 30px;
+    height: 180px;
+    background: #51a251;
+    border-radius: 10px;
+    position: absolute;
+    left: 110px;
+    top: 140px;
+    
+
+
+}
+.gebo2{
+    width: 30px;
+    height: 180px;
+    background: #51a251;
+    border-radius: 10px;
+    position: absolute;
+    right: 110px;
+    top: 140px;
+    
+
+}
+.tui1{
+    width: 30px;
+    height: 80px;
+    background: #51a251;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    left: 190px;
+    bottom: 60px;
+}
+.tui2{
+    width: 30px;
+    height: 80px;
+    background: #51a251;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    right: 190px;
+    bottom: 60px;
+}

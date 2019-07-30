@@ -1,0 +1,25 @@
+1、Lorem ipsum dolor HTML5 nunc aut nunquam sit amet, consectetur adipiscing elit. Vivamus at est eros, vel fringilla urna.
+
+Per inceptos himenaeos. Quisque feugiat, justo at vehicula pellentesque, turpis lorem dictum nunc.
+2、HTML5: "Lorem ipsum dolor nunc aut nunquam sit amet, consectetur adipiscing elit. Vivamus at est eros, vel fringilla urna. Pellentesque odio
+3、HTML5: "Lorem ipsum dolor nunc aut nunquam sit amet, consectetur adipiscing elit. Vivamus at est eros, vel fringilla urna. Pellentesque odio rhoncus
+
+
+采用字体：Geneva,Arial,Helvetica,sans-serif; 
+基本背景颜色:#CCCCCC
+最大宽度：900px
+
+边框：5px, 实线，#ffffff
+内容背景颜色：#888
+header部分背景颜色：#F47D31    ------h1
+主header部分高度：80px
+主header部分字体大小：72px
+主footer部分高度：50px
+nav部分宽度：25%-------h3
+article部分宽度：50%
+aside部分宽度：25%，斜体font-style: italic; 
+
+
+h1:72px
+h2:24px;
+h3:18px

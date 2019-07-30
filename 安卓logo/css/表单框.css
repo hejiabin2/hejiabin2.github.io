@@ -1,0 +1,35 @@
+.box{
+    width: 600px;
+    height: 100px;
+     margin: 100px auto;
+    border: 30px solid #f4f4f4;
+    box-shadow: 0px 7px 3px 7px #ccc;
+    border-radius: 20px  ;
+    box-sizing: border-box;
+    position: relative;
+}
+.content{
+    width: 400px;
+    height: 41px;
+    box-shadow: 0px 1px 5px 1px #ccc inset;
+    font-size: 21px;
+    line-height: 41px;
+    color: #a9a9a9;
+    border-radius: 5px;
+}
+.go{
+    width: 120px;
+    height: 41px;
+    background: #1494ad;
+    border: 1px solid;
+    box-shadow: 0px 0px 2px 0px black inset;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    border-radius: 5px;
+    text-align: center;
+    color: #f4f4f4;
+    line-height: 41px;
+    font-size: 21px;
+
+}

@@ -1,0 +1,438 @@
+html, body {
+  height: 100%;
+}
+
+#shouye {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#shouye .header {
+  height: 45px;
+  top: 0px;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background: white;
+}
+
+#shouye .header .lingdang {
+  width: 16px;
+  height: 16px;
+  margin-left: 15px;
+}
+
+#shouye .header .lingdang img {
+  width: 16px;
+  height: 16px;
+}
+
+#shouye .header .logo {
+  flex: 1;
+  width: 325px;
+  height: 30px;
+  background-size: contain;
+  background: url(../images/logo.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#shouye .header .sousuo {
+  width: 16px;
+  height: 16px;
+  margin-right: 15px;
+}
+
+#shouye .header .sousuo img {
+  width: 16px;
+  height: 16px;
+}
+
+#shouye .content {
+  flex: 1;
+  background: #f6f6f6;
+  overflow: auto;
+}
+
+#shouye .content .banner {
+  height: 210px;
+  width: 100%;
+}
+
+#shouye .content .banner img {
+  height: 210px;
+  width: 100%;
+}
+
+#shouye .content .nav {
+  height: 75px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: #ffff;
+}
+
+#shouye .content .nav .yi {
+  width: 50px;
+  height: 75px;
+}
+
+#shouye .content .nav .yi img {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+#shouye .content .nav .yi .ziti {
+  font-size: 8px;
+  line-height: 8px;
+  color: #424242;
+}
+
+#shouye .content .nav .er {
+  width: 50px;
+  height: 75px;
+}
+
+#shouye .content .nav .er img {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+#shouye .content .nav .er .ziti {
+  font-size: 8px;
+  line-height: 8px;
+  color: #424242;
+}
+
+#shouye .content .nav .san {
+  width: 50px;
+  height: 75px;
+}
+
+#shouye .content .nav .san img {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+#shouye .content .nav .san .ziti {
+  font-size: 8px;
+  line-height: 8px;
+  color: #424242;
+}
+
+#shouye .content .nav .si {
+  width: 50px;
+  height: 75px;
+}
+
+#shouye .content .nav .si img {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+#shouye .content .nav .si .ziti {
+  font-size: 8px;
+  line-height: 8px;
+  color: #424242;
+}
+
+#shouye .content .shangxin {
+  margin-top: 10px;
+  height: 75px;
+  background-image: url(../images/bg.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+#shouye .content .shangxin .span {
+  height: 12px;
+  font-size: 12px;
+  line-height: 12px;
+  color: #222222;
+}
+
+#shouye .content .shangxin .xin {
+  width: 31px;
+  height: 13px;
+  border: 1px solid #c9bea0;
+  color: #d3c59e;
+  text-align: center;
+  font-size: 8px;
+  line-height: 12px;
+  position: absolute;
+  top: 11px;
+  left: 80px;
+}
+
+#shouye .content .shangxin .xin1 {
+  width: 31px;
+  height: 13px;
+  border: 1px solid #c9bea0;
+  color: #d3c59e;
+  text-align: center;
+  font-size: 8px;
+  line-height: 12px;
+  position: absolute;
+  top: 49px;
+  left: 80px;
+}
+
+#shouye .content .tu-1 {
+  height: 170px;
+  width: 351px;
+  margin: auto;
+  background: white;
+  margin-top: 10px;
+}
+
+#shouye .content .tu-1 img {
+  width: 100%;
+  height: 170px;
+}
+
+#shouye .content .main1 {
+  height: 165px;
+  background: white;
+}
+
+#shouye .content .main1 ul {
+  height: 100%;
+  display: flex;
+  overflow: auto;
+  text-align: center;
+}
+
+#shouye .content .main1 ul li {
+  width: 100px;
+  height: 165px;
+}
+
+#shouye .content .main1 ul li img {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+#shouye .content .main1 ul li .p8 {
+  font-size: 8px;
+  line-height: 14px;
+  color: #747474;
+  display: block;
+}
+
+#shouye .content .main1 ul li .p10 {
+  font-size: 10px;
+  line-height: 18px;
+  font-weight: 600px;
+  color: #454545;
+  display: block;
+}
+
+#shouye .content .main2 {
+  width: 351px;
+  height: 170px;
+  margin: auto;
+}
+
+#shouye .content .main2 img {
+  width: 351px;
+  height: 170px;
+}
+
+#shouye .content .main3 {
+  height: 155px;
+  background: white;
+}
+
+#shouye .content .main3 ul {
+  height: 155px;
+  display: flex;
+  overflow: auto;
+  text-align: center;
+  justify-content: space-around;
+}
+
+#shouye .content .main3 ul li {
+  width: 105px;
+  height: 155px;
+}
+
+#shouye .content .main3 ul li img {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+#shouye .content .main3 ul li .p8 {
+  font-size: 4px;
+  line-height: 14px;
+  color: #747474;
+  display: block;
+}
+
+#shouye .content .main3 ul li .p10 {
+  font-size: 8px;
+  line-height: 18px;
+  font-weight: 600px;
+  color: #454545;
+  display: block;
+}
+
+#shouye .content .main4 {
+  width: 351px;
+  height: 170px;
+  margin: auto;
+}
+
+#shouye .content .main4 img {
+  width: 351px;
+  height: 170px;
+}
+
+#shouye .footer {
+  height: 65px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  position: fixed;
+  background: white;
+  bottom: 0px;
+}
+
+#shouye .footer a {
+  display: block;
+  color: #c2c2c2;
+}
+
+#shouye .footer a .shouye {
+  width: 100px;
+  height: 65px;
+  position: relative;
+}
+
+#shouye .footer a .shouye .tu {
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  top: 9px;
+  left: 23px;
+}
+
+#shouye .footer a .shouye .tu img {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+#shouye .footer a .shouye .ziti {
+  color: #c2c2c2;
+  font-size: 16px;
+  line-height: 12px;
+  position: absolute;
+  bottom: 10px;
+  left: 24px;
+  text-align: center;
+}
+
+#shouye .footer a .fenlei {
+  width: 100px;
+  height: 65px;
+  position: relative;
+}
+
+#shouye .footer a .fenlei .tu {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 9px;
+  left: 23px;
+}
+
+#shouye .footer a .fenlei .tu img {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+#shouye .footer a .fenlei .ziti {
+  color: #c2c2c2;
+  font-size: 16px;
+  line-height: 12px;
+  position: absolute;
+  bottom: 10px;
+  left: 24px;
+  text-align: center;
+}
+
+#shouye .footer a .gouwuche {
+  width: 100px;
+  height: 65px;
+  position: relative;
+}
+
+#shouye .footer a .gouwuche .tu {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 9px;
+  left: 23px;
+}
+
+#shouye .footer a .gouwuche .tu img {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+#shouye .footer a .gouwuche .ziti {
+  color: #c2c2c2;
+  font-size: 16px;
+  line-height: 12px;
+  position: absolute;
+  bottom: 10px;
+  left: 24px;
+  text-align: center;
+}
+
+#shouye .footer a .wode {
+  width: 100px;
+  height: 65px;
+  position: relative;
+}
+
+#shouye .footer a .wode .tu {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 9px;
+  left: 23px;
+}
+
+#shouye .footer a .wode .tu img {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+#shouye .footer a .wode .ziti {
+  color: #c2c2c2;
+  font-size: 16px;
+  line-height: 12px;
+  position: absolute;
+  bottom: 10px;
+  left: 24px;
+  text-align: center;
+}

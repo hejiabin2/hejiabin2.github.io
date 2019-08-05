@@ -10,4 +10,5 @@
 <a href="https://hejiabin2.github.io//安卓logo/html/安卓.html">安卓logo</a>
  
 <a href="https://hejiabin2.github.io//搜石网/html/首页.html">搜石网</a>
-
+/allpyra/html/首页.html
+<a href="https://hejiabin2.github.io//allpyra/html/首页.html">allpyra</a>

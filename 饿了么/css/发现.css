@@ -1,0 +1,343 @@
+html, body {
+  height: 100%;
+}
+
+#faxian {
+  height: 392.93333vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #f5f5f5;
+}
+
+#faxian .main1 {
+  height: 42.66667vw;
+  background: pink;
+}
+
+#faxian .main1 .main1-left {
+  width: 50vw;
+  height: 42.66667vw;
+  background: #fff;
+  float: left;
+  padding-top: 6.66667vw;
+  padding-left: 4.4vw;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#faxian .main1 .main1-left .tu {
+  width: 19.06667vw;
+  height: 17.6vw;
+  position: absolute;
+  bottom: 2.66667vw;
+  right: 3.33333vw;
+}
+
+#faxian .main1 .main1-left .tu img {
+  width: 100%;
+  height: 100%;
+}
+
+#faxian .main1 .main1-left p {
+  font-size: 3.46667vw;
+  line-height: 3.46667vw;
+  margin-top: 2.66667vw;
+  color: #9d9d9d;
+}
+
+#faxian .main1 .main1-left h2 {
+  font-size: 4vw;
+  line-height: 4vw;
+  color: #e0a130;
+}
+
+#faxian .main1 .main1-right {
+  width: 50vw;
+  height: 42.66667vw;
+  background: #fff;
+  float: left;
+}
+
+#faxian .main1 .main1-right .main-right-top {
+  height: 21.33333vw;
+  width: 100%;
+  padding-top: 4.66667vw;
+  padding-left: 6vw;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#faxian .main1 .main1-right .main-right-top .tu {
+  width: 10.8vw;
+  height: 11.6vw;
+  position: absolute;
+  right: 4.53333vw;
+  top: 5.33333vw;
+}
+
+#faxian .main1 .main1-right .main-right-top .tu img {
+  width: 100%;
+  height: 100%;
+}
+
+#faxian .main1 .main1-right .main-right-top h2 {
+  font-size: 4vw;
+  line-height: 4vw;
+  color: #1ba5e4;
+}
+
+#faxian .main1 .main1-right .main-right-top p {
+  font-size: 3.73333vw;
+  line-height: 3.73333vw;
+  color: #9d9d9d;
+  margin-top: 2.66667vw;
+}
+
+#faxian .main1 .main1-right .main-right-bootm {
+  height: 21.33333vw;
+  width: 100%;
+  padding-top: 4.66667vw;
+  padding-left: 6vw;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#faxian .main1 .main1-right .main-right-bootm .tu {
+  width: 10.8vw;
+  height: 11.6vw;
+  position: absolute;
+  right: 4.53333vw;
+  top: 5.33333vw;
+}
+
+#faxian .main1 .main1-right .main-right-bootm .tu img {
+  width: 100%;
+  height: 100%;
+}
+
+#faxian .main1 .main1-right .main-right-bootm h2 {
+  font-size: 4vw;
+  line-height: 4vw;
+  color: #de695f;
+}
+
+#faxian .main1 .main1-right .main-right-bootm p {
+  font-size: 3.73333vw;
+  line-height: 3.73333vw;
+  color: #9d9d9d;
+  margin-top: 2.66667vw;
+}
+
+#faxian .main2 {
+  height: 248.8vw;
+  background: #fff;
+  margin-top: 3.06667vw;
+}
+
+#faxian .main2 .main2-top {
+  height: 14.13333vw;
+  background: #fff;
+}
+
+#faxian .main2 .main2-top h2 {
+  width: 37.06667vw;
+  height: 4.66667vw;
+  margin: 5.33333vw auto;
+  margin-bottom: 0px;
+}
+
+#faxian .main2 .main2-top h2 img {
+  width: 100%;
+  height: 100%;
+}
+
+#faxian .main2 .main2-top p {
+  font-size: 2.4vw;
+  line-height: 2.4vw;
+  text-align: center;
+  color: #9d9d9d;
+  margin-top: 2.66667vw;
+}
+
+#faxian .main2 .box {
+  height: 217.06667vw;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#faxian .main2 .box .xiao {
+  width: 45.86667vw;
+  height: 70.53333vw;
+  border: 1px solid #eeeeee;
+  position: relative;
+}
+
+#faxian .main2 .box .xiao .tu {
+  width: 45.86667vw;
+  height: 46.13333vw;
+}
+
+#faxian .main2 .box .xiao .tu img {
+  width: 100%;
+  height: 100%;
+}
+
+#faxian .main2 .box .xiao h3 {
+  font-size: 3.46667vw;
+  line-height: 3.46667vw;
+  color: #3a3a3a;
+  margin-top: 5px;
+  margin-left: 2.66667vw;
+}
+
+#faxian .main2 .box .xiao .p16 {
+  font-size: 2.13333vw;
+  line-height: 4vw;
+  color: #6a6a6a;
+  margin-left: 2.66667vw;
+}
+
+#faxian .main2 .box .xiao .p26 {
+  font-size: 3.46667vw;
+  line-height: 3.46667vw;
+  color: #fa5e09;
+  margin-left: 2.66667vw;
+}
+
+#faxian .main2 .box .xiao .span {
+  width: 11.2vw;
+  height: 3.33333vw;
+  border-radius: 5px;
+  border: 1px solid #c28688;
+  color: #c28688;
+  margin-left: 2.66667vw;
+  margin-top: 5px;
+}
+
+#faxian .main2 .box .xiao .ziti {
+  width: 40.8vw;
+  height: 6.13333vw;
+  border-top: 1px dashed #867c7c;
+  position: absolute;
+  bottom: 0px;
+  margin: 0px auto;
+  margin-left: 2.66667vw;
+}
+
+#faxian .main2 .box .xiao .ziti span {
+  font-size: 2.4vw;
+  line-height: 6.13333vw;
+  color: #9a9a9a;
+  letter-spacing: 2px;
+}
+
+#faxian .main2 .box .geng {
+  height: 14.13333vw;
+  text-align: center;
+  color: #ccc;
+  font-size: 3.2vw;
+  line-height: 14.13333vw;
+}
+
+#faxian .main3 {
+  height: 80vw;
+  background: #fff;
+}
+
+#faxian .main3 .main3-top {
+  height: 14.4vw;
+}
+
+#faxian .main3 .main3-top .tu {
+  width: 41.33333vw;
+  height: 5.33333vw;
+  margin: auto;
+}
+
+#faxian .main3 .main3-top .tu img {
+  width: 100%;
+  height: 100%;
+}
+
+#faxian .main3 .main3-top .p24 {
+  line-height: 3.2vw;
+  font-size: 3.2vw;
+  color: #6a6a6a;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#faxian .main3 .main3-content {
+  height: 44vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+#faxian .main3 .main3-content .xiao {
+  width: 28.26667vw;
+  height: 42.4vw;
+}
+
+#faxian .main3 .main3-content .xiao .span {
+  width: 13.33333vw;
+  height: 5.06667vw;
+  background: #413d3c;
+  color: white;
+  font-size: 2.4vw;
+  line-height: 5.06667vw;
+  text-align: center;
+  display: inline-block;
+}
+
+#faxian .main3 .main3-content .xiao i {
+  display: inline-block;
+  width: 21.33333vw;
+  height: 10.66667vw;
+  background: url(../images/yi.png);
+  background-size: 100% 100%;
+  margin: 0px auto;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 12px;
+}
+
+#faxian .main3 .main3-content .xiao .p24 {
+  color: #333333;
+  font-size: 3.2vw;
+  margin-top: 4vw;
+}
+
+#faxian .main3 .main3-content .xiao .p16 {
+  color: #a6a6a6;
+  font-size: 2.13333vw;
+  margin-left: 10px;
+}
+
+#faxian .main3 .di {
+  height: 13.2vw;
+  font-size: 3.2vw;
+  line-height: 13.2vw;
+  color: #999999;
+  text-align: center;
+}
+
+#faxian .footer {
+  width: 100%;
+  height: 14.4vw;
+  background: #fff;
+  display: flex;
+  position: fixed;
+  bottom: 0px;
+  justify-content: space-around;
+}
+
+#faxian .footer .xiao {
+  width: 16vw;
+  height: 14.4vw;
+  text-align: center;
+  font-size: 2.4vw;
+  color: #908f95;
+}

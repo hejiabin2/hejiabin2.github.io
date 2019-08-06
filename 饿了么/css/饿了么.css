@@ -1,0 +1,322 @@
+html, body {
+  height: 100%;
+}
+
+#elem {
+  height: 100%;
+  overflow: auto;
+  position: relative;
+}
+
+#elem .cleanflx::after {
+  content: "";
+  clear: both;
+  height: 0px;
+  overflow: hidden;
+  display: block;
+  visibility: hidden;
+}
+
+#elem .head {
+  height: 2.533333rem;
+  background: #0096ff;
+  overflow: hidden;
+  padding-left: .346667rem;
+}
+
+#elem .head h3 {
+  font-size: .453333rem;
+  line-height: .453333rem;
+  color: white;
+  margin-top: .506667rem;
+}
+
+#elem .head .int {
+  width: 9.333333rem;
+  height: .986667rem;
+  text-align: center;
+  margin: auto;
+  font-size: .346667rem;
+  color: #9e9e9e;
+  margin: 0px auto;
+  margin-top: .266667rem;
+}
+
+#elem .nav {
+  height: 4.666667rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+#elem .nav .xiao {
+  width: 1.866667rem;
+  height: 2rem;
+  position: relative;
+}
+
+#elem .nav .xiao .tu {
+  width: 1.066667rem;
+  height: .8rem;
+  margin: auto;
+  position: absolute;
+  top: .4rem;
+  left: .4rem;
+}
+
+#elem .nav .xiao .tu img {
+  width: 1.066667rem;
+  height: .8rem;
+}
+
+#elem .nav .xiao .p22 {
+  font-size: .293333rem;
+  line-height: .293333rem;
+  margin-top: .266667rem;
+  color: #737373;
+  text-align: center;
+  margin-top: 1.333333rem;
+}
+
+#elem .banner {
+  height: 9.2rem;
+  width: 9.466667rem;
+  margin: auto;
+}
+
+#elem .banner .banner1 {
+  height: 2.906667rem;
+  width: 100%;
+  padding-top: .266667rem;
+  padding-left: .4rem;
+  background: #f7f7f7;
+  position: relative;
+}
+
+#elem .banner .banner1 .tu {
+  width: 4rem;
+  height: 100%;
+  background: url(../images/list1.webp);
+  background-position: center center;
+  background-size: 100% 100%;
+  float: right;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#elem .banner .banner1 h4 {
+  font-size: .453333rem;
+  line-height: .453333rem;
+  color: #303030;
+  font-weight: 800;
+}
+
+#elem .banner .banner1 .p24 {
+  color: #7e7e7e;
+  font-size: .453333rem;
+  line-height: .453333rem;
+  margin-top: .24rem;
+}
+
+#elem .banner .banner1 .p22 {
+  color: #b47f5d;
+  font-size: .293333rem;
+  line-height: .293333rem;
+  margin-top: .133333rem;
+}
+
+#elem .banner .banner2 {
+  height: 1.066667rem;
+  width: 100%;
+  background: #f8e3ac;
+  padding-left: 1.066667rem;
+  box-sizing: border-box;
+}
+
+#elem .banner .banner2 .p30 {
+  font-size: .4rem;
+  line-height: 1.066667rem;
+  color: #303030;
+  font-weight: 700;
+}
+
+#elem .banner .banner2 .p20 {
+  font-size: .266667rem;
+  line-height: 1.066667rem;
+  margin-left: .133333rem;
+}
+
+#elem .banner .banner2 .fr {
+  float: right;
+}
+
+#elem .banner .banner3 {
+  height: 2.346667rem;
+  margin-top: 10px;
+  background: url(../images/banner.webp);
+  background-size: 100% 100%;
+}
+
+#elem .banner .banner4 {
+  height: 1.146667rem;
+  font-size: .346667rem;
+  text-align: center;
+  line-height: 1.146667rem;
+  font-weight: 600;
+  position: relative;
+}
+
+#elem .banner .banner4 .xian1 {
+  width: .666667rem;
+  height: .066667rem;
+  background: #303030;
+  position: absolute;
+  top: .266667rem;
+  left: 2.8rem;
+}
+
+#elem .banner .banner4 .xian2 {
+  width: .666667rem;
+  height: .066667rem;
+  background: #303030;
+  position: absolute;
+  top: 20px;
+  left: 120px;
+}
+
+#elem .banner .banner5 {
+  height: 1.066667rem;
+}
+
+#elem .banner .banner5 ul {
+  height: 1.066667rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+#elem .banner .banner5 ul li {
+  width: 2rem;
+  font-size: .346667rem;
+  line-height: 1.066667rem;
+  color: #6b6b6b;
+}
+
+#elem .cont {
+  height: auto;
+  width: 9.493333rem;
+  margin: auto;
+}
+
+#elem .cont .cont1 {
+  height: 4rem;
+}
+
+#elem .cont .cont1 img {
+  width: 1.706667rem;
+  height: 1.706667rem;
+  display: inline-block;
+}
+
+#elem .cont .cont1 .right {
+  width: 7.44rem;
+  height: 4rem;
+  float: right;
+}
+
+#elem .cont .cont1 .right .fl {
+  float: left;
+}
+
+#elem .cont .cont1 .right .fr {
+  float: right;
+}
+
+#elem .cont .cont1 .right h5 {
+  font-size: .4rem;
+  line-height: .4rem;
+  color: #303030;
+  font-weight: 600;
+}
+
+#elem .cont .cont1 .right .xing {
+  width: 1.533333rem;
+  height: .24rem;
+  background: url(../images/xing.png);
+  display: inline-block;
+  background-size: 100% 100%;
+}
+
+#elem .cont .cont1 .right .song {
+  width: 1.333333rem;
+  height: .4rem;
+  background: #0096ff;
+  font-size: .266667rem;
+  color: white;
+}
+
+#elem .cont .cont1 .right .p14 {
+  color: #9b9b9b;
+  font-size: .186667rem;
+  line-height: .266667rem;
+  margin-top: .2rem;
+}
+
+#elem .cont .cont1 .right .di {
+  height: 1.066667rem;
+  margin-top: 1.4rem;
+  position: relative;
+}
+
+#elem .cont .cont1 .right .di p {
+  font-size: .266667rem;
+  line-height: .533333rem;
+  color: #a1a1a1;
+  margin-left: .266667rem;
+}
+
+#elem .cont .cont1 .right .di .jian, #elem .cont .cont1 .right .di .huan {
+  width: .4rem;
+  height: .4rem;
+  font-size: .266667rem;
+  color: white;
+}
+
+#elem .cont .cont1 .right .di .jian {
+  background: #f77170;
+  position: absolute;
+  top: .133333rem;
+  left: -.266667rem;
+}
+
+#elem .cont .cont1 .right .di .huan {
+  background: #f68539;
+  position: absolute;
+  top: .666667rem;
+  left: -.266667rem;
+}
+
+#elem .cont .cont1 .right .di .huo {
+  font-size: .24rem;
+  color: #989898;
+  float: right;
+}
+
+#elem .footer {
+  height: 1.466667rem;
+  position: fixed;
+  bottom: 0px;
+  background: white;
+  width: 100%;
+}
+
+#elem .footer ul {
+  height: 1.466667rem;
+  display: flex;
+  justify-content: space-around;
+  font-size: .32rem;
+  text-align: center;
+  color: #b0b0b2;
+  line-height: 1.466667rem;
+}

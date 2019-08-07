@@ -1,0 +1,672 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+html #shouye, body #shouye {
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+html #shouye .head, body #shouye .head {
+  width: 100%;
+  height: 1.44rem;
+  background: #fff;
+  padding: 0px 16px;
+  display: flex;
+  align-items: center;
+}
+
+html #shouye .head .head-t .tu, body #shouye .head .head-t .tu {
+  display: block;
+  width: 2.453333rem;
+  height: .853333rem;
+}
+
+html #shouye .head .head-b, body #shouye .head .head-b {
+  flex: 1;
+  font-size: .266667rem;
+  margin-left: .133333rem;
+}
+
+html #shouye .head .head-b a, body #shouye .head .head-b a {
+  color: black;
+  font-size: .266667rem;
+}
+
+html #shouye .head .head-f, body #shouye .head .head-f {
+  width: .426667rem;
+  height: .426667rem;
+  background: url(../images/o_1ckeu2uusfl01sst1lg0gjs1aul3g.png);
+  background-repeat: no-repeat;
+  background-size: .426667rem .426667rem;
+}
+
+html #shouye .head .head-f:hover .xiala-nav, body #shouye .head .head-f:hover .xiala-nav {
+  display: block;
+}
+
+html #shouye .xiala-nav, body #shouye .xiala-nav {
+  position: absolute;
+  top: 1.44rem;
+  background-color: rgba(0, 0, 0, 0.55);
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+html #shouye .xiala-nav .xiala-nav-t, body #shouye .xiala-nav .xiala-nav-t {
+  width: 100%;
+  height: 6.266667rem;
+  background: #fff;
+  padding: 5px 10px 14px;
+}
+
+html #shouye .xiala-nav .xiala-nav-t .shang, body #shouye .xiala-nav .xiala-nav-t .shang {
+  height: 1.92rem;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+
+html #shouye .xiala-nav .xiala-nav-t .shang .box, body #shouye .xiala-nav .xiala-nav-t .shang .box {
+  width: 2.08rem;
+  height: 1.626667rem;
+  display: block;
+}
+
+html #shouye .xiala-nav .xiala-nav-t .shang .box .tu, body #shouye .xiala-nav .xiala-nav-t .shang .box .tu {
+  width: 2.08rem;
+  height: 1.333333rem;
+}
+
+html #shouye .xiala-nav .xiala-nav-t .shang .box .tu img, body #shouye .xiala-nav .xiala-nav-t .shang .box .tu img {
+  width: 100%;
+  height: 100%;
+}
+
+html #shouye .xiala-nav .xiala-nav-t .shang .box .zi, body #shouye .xiala-nav .xiala-nav-t .shang .box .zi {
+  font-size: .32rem;
+  text-align: center;
+  color: #000;
+}
+
+html #shouye .banner, body #shouye .banner {
+  height: 3.68rem;
+  margin: 0px auto;
+  padding: 0px 16px;
+  position: relative;
+  border-bottom: 1px solid #f6f6f6;
+}
+
+html #shouye .banner img, body #shouye .banner img {
+  width: 9.133333rem;
+  height: 100%;
+  border-radius: 20px;
+}
+
+html #shouye .banner .tu, body #shouye .banner .tu {
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  height: .746667rem;
+}
+
+html #shouye .lei, body #shouye .lei {
+  height: 3.733333rem;
+  padding: 0px 16px;
+}
+
+html #shouye .lei .lei-s, body #shouye .lei .lei-s {
+  height: 1.866667rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+html #shouye .lei .lei-s .xiao, body #shouye .lei .lei-s .xiao {
+  width: 2.133333rem;
+  height: 1.866667rem;
+}
+
+html #shouye .lei .lei-s .xiao .tu, body #shouye .lei .lei-s .xiao .tu {
+  width: 1.6rem;
+  height: 1.28rem;
+}
+
+html #shouye .lei .lei-s .xiao .tu img, body #shouye .lei .lei-s .xiao .tu img {
+  width: 100%;
+  height: 100%;
+}
+
+html #shouye .lei .lei-s .xiao .zi, body #shouye .lei .lei-s .xiao .zi {
+  color: #323232;
+  font-size: .293333rem;
+  text-align: center;
+}
+
+html #shouye .rukou, body #shouye .rukou {
+  height: 4.506667rem;
+  padding: 0px 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+html #shouye .rukou .big, body #shouye .rukou .big {
+  height: 100%;
+  width: 4.453333rem;
+  background-image: url(../images/o_1cliarnre1kk49dc1sa3kiqe4g9.png);
+  background-size: 100% 100%;
+}
+
+html #shouye .rukou .xiao, body #shouye .rukou .xiao {
+  width: 4.453333rem;
+}
+
+html #shouye .rukou .xiao .shang, body #shouye .rukou .xiao .shang {
+  height: 2.133333rem;
+  background-image: url(../images/o_1cliau3cmq3ca6q1kvf16hvdvc9.png);
+  background-size: 100% 100%;
+}
+
+html #shouye .rukou .xiao .xia, body #shouye .rukou .xiao .xia {
+  height: 2.133333rem;
+  background-image: url(../images/o_1d21g6g94cug1q4a1lr3ne19q19.jpg);
+  background-size: 100% 100%;
+}
+
+html #shouye .tuijian, body #shouye .tuijian {
+  height: 6.88rem;
+  padding: 20px 16px;
+  overflow: scroll;
+}
+
+html #shouye .tuijian .tou, body #shouye .tuijian .tou {
+  height: 1.066667rem;
+}
+
+html #shouye .tuijian .tou h3, body #shouye .tuijian .tou h3 {
+  font-size: .56rem;
+  font-weight: 800;
+  color: #010101;
+  line-height: 1.066667rem;
+  display: inline-block;
+}
+
+html #shouye .tuijian .tou span, body #shouye .tuijian .tou span {
+  font-size: .373333rem;
+  color: #9e9e9e;
+  line-height: 1.066667rem;
+  float: right;
+}
+
+html #shouye .tuijian ul, body #shouye .tuijian ul {
+  height: 4.8rem;
+  display: flex;
+  overflow: auto;
+  float: left;
+}
+
+html #shouye .tuijian ul li, body #shouye .tuijian ul li {
+  width: 3.84rem;
+  height: 4.8rem;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: .133333rem;
+  margin-right: .133333rem;
+  box-shadow: 0px 0px 8px 1px #ccc;
+}
+
+html #shouye .tuijian ul li .tu, body #shouye .tuijian ul li .tu {
+  width: 1.6rem;
+  height: 1.6rem;
+  margin: .266667rem auto;
+  border-radius: 100%;
+  border: 1px solid #ccc;
+}
+
+html #shouye .tuijian ul li img, body #shouye .tuijian ul li img {
+  display: block;
+  width: 1.546667rem;
+  height: 1.546667rem;
+  margin: auto;
+}
+
+html #shouye .tuijian ul li h6, body #shouye .tuijian ul li h6 {
+  font-size: .4rem;
+  text-align: center;
+  font-weight: 800;
+}
+
+html #shouye .tuijian ul li span, body #shouye .tuijian ul li span {
+  display: inline-block;
+  width: .293333rem;
+  height: .293333rem;
+  margin: 0px auto;
+  background: url(../images/xingxing1.png);
+  background-size: 100% 100%;
+}
+
+html #shouye .tuijian ul li p, body #shouye .tuijian ul li p {
+  font-size: .266667rem;
+  color: #626262;
+  text-align: center;
+  margin-top: .133333rem;
+}
+
+html #shouye .chengshi, body #shouye .chengshi {
+  height: 6.133333rem;
+  padding: 0px 16px;
+}
+
+html #shouye .chengshi .tou, body #shouye .chengshi .tou {
+  height: 1.066667rem;
+}
+
+html #shouye .chengshi .tou h3, body #shouye .chengshi .tou h3 {
+  font-size: .56rem;
+  font-weight: 800;
+  color: #010101;
+  line-height: 1.066667rem;
+  display: inline-block;
+}
+
+html #shouye .chengshi .tou span, body #shouye .chengshi .tou span {
+  font-size: .373333rem;
+  color: #9e9e9e;
+  line-height: 1.066667rem;
+  float: right;
+}
+
+html #shouye .chengshi .tou-1, body #shouye .chengshi .tou-1 {
+  width: 9.146667rem;
+  height: 4.426667rem;
+  margin: auto;
+  background: url(../images/ditu.png);
+  background-size: 100% auto;
+  background-position: 0px 0px;
+  overflow: hidden;
+}
+
+html #shouye .chengshi .tou-1 .list, body #shouye .chengshi .tou-1 .list {
+  width: 8rem;
+  height: 3.466667rem;
+  margin: auto auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 1px #ccc;
+  background: white;
+  margin-top: .533333rem;
+}
+
+html #shouye .chengshi .tou-1 .list ul, body #shouye .chengshi .tou-1 .list ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+html #shouye .chengshi .tou-1 .list ul li, body #shouye .chengshi .tou-1 .list ul li {
+  width: 1.666667rem;
+  font-size: .4rem;
+  color: #575757;
+}
+
+html #shouye .gongju, body #shouye .gongju {
+  height: 3.866667rem;
+  width: 100%;
+  padding: 0px 16px;
+}
+
+html #shouye .gongju .tou, body #shouye .gongju .tou {
+  height: 1.066667rem;
+}
+
+html #shouye .gongju .tou h3, body #shouye .gongju .tou h3 {
+  font-size: .56rem;
+  font-weight: 800;
+  color: #010101;
+  line-height: 1.066667rem;
+  display: inline-block;
+}
+
+html #shouye .gongju .tou span, body #shouye .gongju .tou span {
+  font-size: .373333rem;
+  color: #9e9e9e;
+  line-height: 1.066667rem;
+  float: right;
+}
+
+html #shouye .gongju .box, body #shouye .gongju .box {
+  width: 100%;
+  height: 2.1rem;
+  overflow: auto;
+  display: flex;
+}
+
+html #shouye .gongju .box li, body #shouye .gongju .box li {
+  width: 3.066667rem;
+  height: 1.866667rem;
+  box-shadow: 0px 0px 5px 0px #ccc;
+  margin-right: .266667rem;
+  margin-left: .266667rem;
+  margin-top: .133333rem;
+  position: relative;
+  padding-left: .4rem;
+  flex-shrink: 0;
+  border-radius: .266667rem;
+}
+
+html #shouye .gongju .box li h6, body #shouye .gongju .box li h6 {
+  font-size: .4rem;
+  line-height: .8rem;
+  display: inline-block;
+  font-weight: 700;
+}
+
+html #shouye .gongju .box li p, body #shouye .gongju .box li p {
+  font-size: .293333rem;
+  line-height: .293333rem;
+  color: #666666;
+  margin-top: .133333rem;
+}
+
+html #shouye .gongju .box li span, body #shouye .gongju .box li span {
+  width: .586667rem;
+  height: .586667rem;
+  display: block;
+  position: absolute;
+  bottom: .2rem;
+  right: .346667rem;
+  background: url(../images/bt5.png);
+  background-size: 100% 100%;
+}
+
+html #shouye .yong, body #shouye .yong {
+  height: 7.333333rem;
+  padding: 0px 16px;
+}
+
+html #shouye .yong .tou, body #shouye .yong .tou {
+  height: 1.066667rem;
+}
+
+html #shouye .yong .tou h3, body #shouye .yong .tou h3 {
+  font-size: .56rem;
+  font-weight: 800;
+  color: #010101;
+  line-height: 1.066667rem;
+  display: inline-block;
+}
+
+html #shouye .yong .tou span, body #shouye .yong .tou span {
+  font-size: .373333rem;
+  color: #9e9e9e;
+  line-height: 1.066667rem;
+  float: right;
+}
+
+html #shouye .yong .cont, body #shouye .yong .cont {
+  width: 9.133333rem;
+  height: 5.333333rem;
+}
+
+html #shouye .yong .cont .shang, body #shouye .yong .cont .shang {
+  width: 4.533333rem;
+  height: 2.666667rem;
+}
+
+html #shouye .yong .cont .shang img, body #shouye .yong .cont .shang img {
+  width: 100%;
+  height: 100%;
+}
+
+html #shouye .yong .cont .xia, body #shouye .yong .cont .xia {
+  width: 4.533333rem;
+  height: 2.666667rem;
+}
+
+html #shouye .yong .cont .xia img, body #shouye .yong .cont .xia img {
+  width: 100%;
+  height: 100%;
+}
+
+html #shouye .yong .cont .you, body #shouye .yong .cont .you {
+  width: 4.573333rem;
+  height: 100%;
+  float: right;
+}
+
+html #shouye .yong .cont .you img, body #shouye .yong .cont .you img {
+  width: 100%;
+  height: 100%;
+}
+
+html #shouye .main1, body #shouye .main1 {
+  height: 5.653333rem;
+  padding: 0px  16px;
+  position: relative;
+}
+
+html #shouye .main1 .tou, body #shouye .main1 .tou {
+  height: 1.066667rem;
+}
+
+html #shouye .main1 .tou h3, body #shouye .main1 .tou h3 {
+  font-size: .56rem;
+  font-weight: 800;
+  color: #010101;
+  line-height: 1.066667rem;
+  display: inline-block;
+}
+
+html #shouye .main1 .tou span, body #shouye .main1 .tou span {
+  font-size: .373333rem;
+  color: #9e9e9e;
+  line-height: 1.066667rem;
+  float: right;
+}
+
+html #shouye .main1 .bot, body #shouye .main1 .bot {
+  width: 8.666667rem;
+  height: 4rem;
+  position: absolute;
+  bottom: .133333rem;
+  border-radius: .266667rem;
+  box-shadow: 0px 0px 5px #ccc;
+  margin: auto;
+  position: relative;
+}
+
+html #shouye .main1 .bot h4, body #shouye .main1 .bot h4 {
+  font-size: .533333rem;
+  position: absolute;
+  top: .533333rem;
+  right: .3rem;
+}
+
+html #shouye .main1 .bot img, body #shouye .main1 .bot img {
+  width: .746667rem;
+  height: .746667rem;
+  display: block;
+  position: absolute;
+  bottom: 1.066667rem;
+  left: 5.733333rem;
+}
+
+html #shouye .main1 img, body #shouye .main1 img {
+  width: 5.866667rem;
+  height: 4rem;
+  display: block;
+  position: absolute;
+  left: 0.266667rem;
+  bottom: .373333rem;
+  border-radius: .266667rem;
+}
+
+html #shouye .xia, body #shouye .xia {
+  height: 3.333333rem;
+  padding: 0px 16px;
+}
+
+html #shouye .xia .box, body #shouye .xia .box {
+  width: 2.906667rem;
+  height: 3.173333rem;
+  float: left;
+  box-shadow: 0px 0px 8px 0px #ccc;
+}
+
+html #shouye .xia .box img, body #shouye .xia .box img {
+  height: 2.16rem;
+  width: 2.906667rem;
+  display: block;
+  border-radius: .266667rem;
+}
+
+html #shouye .xia .box .zi, body #shouye .xia .box .zi {
+  font-size: .293333rem;
+  line-height: 1.066667rem;
+  text-align: center;
+}
+
+html #shouye .main2, body #shouye .main2 {
+  padding: 0px 16px;
+  height: 20.533333rem;
+}
+
+html #shouye .main2 .tou, body #shouye .main2 .tou {
+  height: 1.066667rem;
+}
+
+html #shouye .main2 .tou h3, body #shouye .main2 .tou h3 {
+  font-size: .56rem;
+  font-weight: 800;
+  color: #010101;
+  line-height: 1.066667rem;
+  display: inline-block;
+}
+
+html #shouye .main2 .tou span, body #shouye .main2 .tou span {
+  font-size: .373333rem;
+  color: #9e9e9e;
+  line-height: 1.066667rem;
+  float: right;
+}
+
+html #shouye .main2 .box, body #shouye .main2 .box {
+  width: 9.04rem;
+  height: 2.986667rem;
+  box-shadow: 0px 0px 5px 0px #ccc;
+  border-radius: .266667rem;
+  margin-bottom: .533333rem;
+  background: url(../images/xie.png);
+  position: relative;
+  background-size: 100% 100%;
+}
+
+html #shouye .main2 .box .you, body #shouye .main2 .box .you {
+  width: 5.333333rem;
+  height: 100%;
+  background: white;
+  padding: 0px 10px;
+  position: relative;
+  float: right;
+}
+
+html #shouye .main2 .box .you .p30, body #shouye .main2 .box .you .p30 {
+  font-size: 16px;
+  line-height: .666667rem;
+  font-weight: 700;
+}
+
+html #shouye .main2 .box .you span, body #shouye .main2 .box .you span {
+  font-size: .253333rem;
+  line-height: .333333rem;
+  display: inline-block;
+  color: #ccc;
+  margin-top: .666667rem;
+}
+
+html #shouye .main2 .box .i, body #shouye .main2 .box .i {
+  width: .746667rem;
+  height: .746667rem;
+  background: url(../images/jian.png);
+  background-size: 100% 100%;
+  position: absolute;
+  right: .8rem;
+  display: block;
+  bottom: .8rem;
+}
+
+html #shouye .main2 .box img, body #shouye .main2 .box img {
+  width: 1.173333rem;
+  height: 3.76rem;
+  position: absolute;
+  left: 2.8rem;
+  top: 0px;
+}
+
+html #shouye .footer, body #shouye .footer {
+  height: 3.813333rem;
+  background: #f2f3f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+html #shouye .footer .shang, body #shouye .footer .shang {
+  width: 6.666667rem;
+  height: .84rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+html #shouye .footer .shang .sspan, body #shouye .footer .shang .sspan {
+  width: 2.666667rem;
+  height: .8rem;
+  background: red;
+  color: white;
+  border-radius: .266667rem;
+  display: inline-block;
+  font-size: .346667rem;
+  line-height: .8rem;
+  text-align: center;
+}
+
+html #shouye .footer .shang .ssspan, body #shouye .footer .shang .ssspan {
+  width: 2.666667rem;
+  height: .8rem;
+  background: white;
+  color: red;
+  border-radius: .266667rem;
+  display: inline-block;
+  font-size: .346667rem;
+  line-height: .8rem;
+  text-align: center;
+}
+
+html #shouye .footer .xia, body #shouye .footer .xia {
+  width: 6.933333rem;
+  height: .933333rem;
+}
+
+html #shouye .footer .xia .p22, body #shouye .footer .xia .p22 {
+  font-size: .293333rem;
+  line-height: .426667rem;
+  color: #ccc;
+}
+
+html #shouye .footer .xia .p24, body #shouye .footer .xia .p24 {
+  font-size: .293333rem;
+  line-height: .293333rem;
+  color: #ccc;
+}

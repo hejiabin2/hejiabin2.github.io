@@ -1,0 +1,895 @@
+.content {
+  width: 1120px;
+  height: auto;
+  margin: auto;
+}
+
+#shouye {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+#shouye .head {
+  width: 100%;
+  height: 60px;
+}
+
+#shouye .head .content {
+  width: 1120px;
+  height: 60px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#shouye .head .content .logo {
+  width: 120px;
+  height: 33px;
+  background: url(../images/header-small.png) no-repeat 0 0;
+}
+
+#shouye .head .content .list {
+  height: 60px;
+  display: flex;
+}
+
+#shouye .head .content .list a {
+  display: block;
+  color: #333333;
+}
+
+#shouye .head .content .list a li {
+  height: 60px;
+  padding: 0px 25px;
+  font-size: 14px;
+  line-height: 60px;
+  text-align: center;
+}
+
+#shouye .head .content .list a:hover {
+  border-bottom: 4px solid #ff9d00;
+  color: #ff9d00;
+}
+
+#shouye .head .content .list2 {
+  width: 200px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+#shouye .head .content .list2 .list2-1 {
+  width: 140px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#shouye .head .content .list2 .list2-1 a {
+  display: block;
+}
+
+#shouye .head .content .list2 .list2-1 .span1 {
+  width: 28px;
+  height: 28px;
+  background: url(../images/header-sprites9.png);
+  background-position: 0px -50px;
+  cursor: pointer;
+}
+
+#shouye .head .content .list2 .list2-1 .span1:hover {
+  background-position: 0px -80px;
+}
+
+#shouye .head .content .list2 .list2-1 .span2 {
+  width: 28px;
+  height: 28px;
+  background: url(../images/header-sprites9.png);
+  background-position: -30px -50px;
+}
+
+#shouye .head .content .list2 .list2-1 .span2:hover {
+  background-position: -30px -80px;
+}
+
+#shouye .head .content .list2 .list2-1 .span3 {
+  width: 28px;
+  height: 28px;
+  background: url(../images/header-sprites9.png);
+  background-position: 0px -165px;
+}
+
+#shouye .head .content .list2 .list2-1 .span3:hover {
+  background-position: -30px -165px;
+}
+
+#shouye .head .content .list2 .list2-1 .span4 a {
+  font-size: 14px;
+  padding-right: 10px;
+  color: #ff9d00;
+}
+
+#shouye .head .content .list2 .list2-1 .span4:hover a {
+  border-bottom: 2px solid  #ff9d00;
+}
+
+#shouye .head .content .list2 .list2-2 {
+  border-left: 1px solid #ccc;
+  font-size: 14px;
+}
+
+#shouye .head .content .list2 .list2-2 a {
+  display: block;
+  padding: 0px 10px;
+  color: #ff9d00;
+}
+
+#shouye .head .content .list2 .list2-2 a:hover {
+  border-bottom: 2px solid #ff9d00;
+}
+
+#shouye .banner {
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+}
+
+#shouye .banner .beijing {
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+  float: left;
+}
+
+#shouye .banner .beijing li {
+  width: 100%;
+  height: 450px;
+}
+
+#shouye .banner .beijing li img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#shouye .banner img {
+  width: 100%;
+  height: 450px;
+  float: left;
+}
+
+#shouye .banner .content {
+  width: 1120px;
+  height: 450px;
+  margin: auto;
+  position: relative;
+}
+
+#shouye .banner .content .nav {
+  width: 110px;
+  height: 340px;
+  position: absolute;
+  top: 35px;
+  right: 0px;
+}
+
+#shouye .banner .content .nav a {
+  display: block;
+}
+
+#shouye .banner .content .nav a li {
+  width: 110px;
+  height: 60px;
+  margin-top: 10px;
+}
+
+#shouye .banner .content .nav a li img {
+  width: 100%;
+  height: 100%;
+}
+
+#shouye .banner .content .nav a li:hover {
+  border: 2px solid #ff9d00;
+}
+
+#shouye .banner .content .ziti {
+  font-size: 22px;
+  display: inline-block;
+  color: white;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+
+#shouye .banner .content .kuang {
+  width: 540px;
+  height: 90px;
+  position: absolute;
+  bottom: 55px;
+  left: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#shouye .main {
+  width: 100%;
+  height: auto;
+}
+
+#shouye .main .content {
+  width: 1120px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  column-count: 2;
+  justify-content: space-around;
+  column-span: none;
+}
+
+#shouye .main .content .left {
+  width: 260px;
+  height: auto;
+}
+
+#shouye .main .content .left .main1 {
+  width: 100%;
+  height: auto;
+}
+
+#shouye .main .content .left .main1 .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#shouye .main .content .left .main1 .top h3 {
+  font-size: 18px;
+  line-height: 66px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #333333;
+  display: inline-block;
+}
+
+#shouye .main .content .left .main1 .top .p12 {
+  font-size: 12px;
+  display: inline-block;
+  color: #999999;
+  line-height: 12px;
+}
+
+#shouye .main .content .left .main1 .top .p12:hover {
+  border-bottom: 1px solid #999;
+}
+
+#shouye .main .content .left .main1 .tu {
+  width: 100%;
+  height: 160px;
+}
+
+#shouye .main .content .left .main1 .tu img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#shouye .main .content .left .main1 .bootm {
+  height: 100px;
+  padding: 10px 15px;
+}
+
+#shouye .main .content .left .main1 .bootm .p16 {
+  font-size: 16px;
+  color: #333333;
+}
+
+#shouye .main .content .left .main1 .bootm .p16:hover {
+  color: #ff9d00;
+  border-bottom: 1px solid #ff9d00;
+}
+
+#shouye .main .content .left .main1 .bootm .p12 {
+  font-size: 12px;
+  color: #666;
+  margin-top: 15px;
+}
+
+#shouye .main .content .left .main2 {
+  width: 100%;
+  height: auto;
+}
+
+#shouye .main .content .left .main2 .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#shouye .main .content .left .main2 .top h3 {
+  font-size: 18px;
+  line-height: 66px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #333333;
+  display: inline-block;
+}
+
+#shouye .main .content .left .main2 .top .p12 {
+  font-size: 12px;
+  display: inline-block;
+  color: #999999;
+  line-height: 12px;
+}
+
+#shouye .main .content .left .main2 .top .p12:hover {
+  border-bottom: 1px solid #999;
+}
+
+#shouye .main .content .left .main2 .tu {
+  width: 100%;
+  height: 160px;
+}
+
+#shouye .main .content .left .main2 .tu img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#shouye .main .content .left .main2 .bootm {
+  height: auto;
+}
+
+#shouye .main .content .left .main2 .bootm .p16 {
+  color: #333333;
+  font-size: 16px;
+}
+
+#shouye .main .content .left .main2 .bootm .p16:hover {
+  color: #ff9d00;
+  border-bottom: 1px solid #ff9d00;
+}
+
+#shouye .main .content .left .main2 .bootm .p12 {
+  color: #333333;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+#shouye .main .content .left .main2 .bootm .p12 span {
+  color: #ff9d00;
+}
+
+#shouye .main .content .left .main3 {
+  width: 100%;
+  height: auto;
+}
+
+#shouye .main .content .left .main3 .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#shouye .main .content .left .main3 .top h3 {
+  font-size: 18px;
+  line-height: 66px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #333333;
+  display: inline-block;
+}
+
+#shouye .main .content .left .main3 .top .p12 {
+  font-size: 12px;
+  display: inline-block;
+  color: #999999;
+  line-height: 12px;
+}
+
+#shouye .main .content .left .main3 .top .p12:hover {
+  border-bottom: 1px solid #999;
+}
+
+#shouye .main .content .left .main3 .tu {
+  width: 100%;
+  height: 160px;
+}
+
+#shouye .main .content .left .main3 .tu img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#shouye .main .content .left .main3 .p16 {
+  color: #ff9d00;
+  font-size: 16px;
+  display: block;
+}
+
+#shouye .main .content .left .main3 .p14 {
+  font-size: 14px;
+  color: #79a4e2;
+}
+
+#shouye .main .content .left .main4 {
+  width: 100%;
+  height: auto;
+}
+
+#shouye .main .content .left .main4 .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#shouye .main .content .left .main4 .top h3 {
+  font-size: 18px;
+  line-height: 66px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #333333;
+  display: inline-block;
+}
+
+#shouye .main .content .left .main4 .top .p12 {
+  font-size: 12px;
+  display: inline-block;
+  color: #999999;
+  line-height: 12px;
+}
+
+#shouye .main .content .left .main4 .top .p12:hover {
+  border-bottom: 1px solid #999;
+}
+
+#shouye .main .content .left .main4 .tu {
+  width: 100%;
+  height: 160px;
+}
+
+#shouye .main .content .left .main4 .tu img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#shouye .main .content .left .main5 {
+  width: 100%;
+  height: auto;
+}
+
+#shouye .main .content .left .main5 .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#shouye .main .content .left .main5 .top h3 {
+  font-size: 18px;
+  line-height: 66px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #333333;
+  display: inline-block;
+}
+
+#shouye .main .content .left .main5 .top .p12 {
+  font-size: 12px;
+  display: inline-block;
+  color: #999999;
+  line-height: 12px;
+}
+
+#shouye .main .content .left .main5 .top .p12:hover {
+  border-bottom: 1px solid #999;
+}
+
+#shouye .main .content .left .main5 .tu {
+  width: 100%;
+  height: 130px;
+}
+
+#shouye .main .content .left .main5 .tu img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#shouye .main .content .left .main5 .zixu {
+  font-size: 18px;
+  color: #4c3333;
+  line-height: 38px;
+  font-weight: 600;
+}
+
+#shouye .main .content .left .main5 ul {
+  width: 100%;
+  height: auto;
+}
+
+#shouye .main .content .left .main5 ul li {
+  font-size: 12px;
+  color: #666666;
+  line-height: 30px;
+}
+
+#shouye .main .content .left .main5 ul li a {
+  font-size: 12px;
+  color: #666666;
+  line-height: 30px;
+}
+
+#shouye .main .content .left .main5 ul li a:hover {
+  border-bottom: 1px solid #666;
+}
+
+#shouye .main .content .right {
+  width: 715px;
+  height: auto;
+}
+
+#shouye .main .content .right .main1 {
+  width: 100%;
+  height: auto;
+}
+
+#shouye .main .content .right .main1 .top {
+  font-size: 18px;
+  color: #4c3333;
+  height: 60px;
+  line-height: 60px;
+}
+
+#shouye .main .content .right .main1 .footerr {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#shouye .main .content .right .main1 .footerr .box {
+  width: 220px;
+  height: 240px;
+}
+
+#shouye .main .content .right .main1 .footerr .box img {
+  width: 100%;
+  height: 136px;
+  display: block;
+}
+
+#shouye .main .content .right .main1 .footerr .box .ziti {
+  height: 100px;
+  padding: 0px 10px;
+}
+
+#shouye .main .content .right .main1 .footerr .box .ziti .p14 {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+#shouye .main .content .right .main1 .footerr .box .ziti .p16 {
+  font-size: 16px;
+  color: #ff9d00;
+  float: right;
+  font-weight: 800;
+}
+
+#shouye .main .content .right .main2 {
+  height: 60px;
+  display: flex;
+}
+
+#shouye .main .content .right .main2 .zuo {
+  width: 560px;
+  height: 100%;
+}
+
+#shouye .main .content .right .main2 .zuo ul {
+  width: 380px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#shouye .main .content .right .main2 .zuo ul li {
+  padding: 0px 10px;
+  font-size: 20px;
+  color: #ff9d00;
+}
+
+#shouye .main .content .right .main2 .you {
+  width: 140px;
+  position: relative;
+  height: 70%;
+  background: #ff9d00;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 10px;
+}
+
+#shouye .main .content .right .main2 .you span {
+  background: url(../images/header-sprites9.png);
+  background-position: -120px -50px;
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+  display: block;
+  position: absolute;
+  top: 13px;
+  left: 27px;
+}
+
+#shouye .main .content .right .main2 .you:hover {
+  background: orangered;
+}
+
+#shouye .main .content .right .main3 {
+  width: 702px;
+  padding: 10px 10px;
+  position: relative;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#shouye .main .content .right .main3 img {
+  width: 220px;
+  height: 150px;
+  display: block;
+}
+
+#shouye .main .content .right .main3 .ziti {
+  width: 455px;
+  height: 100%;
+}
+
+#shouye .main .content .right .main3 .ziti .p20 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #333333;
+}
+
+#shouye .main .content .right .main3 .ziti .p12 {
+  font-size: 12px;
+  line-height: 20px;
+  color: #666666;
+}
+
+#shouye .main .content .right .main3 .ziti .span {
+  font-size: 12px;
+  line-height: 12px;
+  color: #666;
+  width: auto;
+  height: 20px;
+  position: absolute;
+  bottom: 10px;
+}
+
+#shouye .main .content .right .main3 .ziti .span a {
+  font-size: 12px;
+  line-height: 12px;
+  color: #666;
+}
+
+#shouye .main .content .right .main3 .ziti .span ul {
+  width: 100%;
+  display: flex;
+}
+
+#shouye .main .content .right .main3 .ziti .span ul li {
+  padding: 0px 20px;
+  position: relative;
+}
+
+#shouye .main .content .right .main3 .ziti .span ul li span {
+  background: url(../images/index-sprites9.png);
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#shouye .main .content .right .main3 .ziti .span ul li:nth-child(1) span {
+  background-position: 0px -50px;
+}
+
+#shouye .main .content .right .main3 .ziti .span ul li:nth-child(3) span {
+  background-position: -30px -50px;
+}
+
+#shouye .main .content .right .main3 .ziti .span ul li:nth-child(2) .yonghu {
+  color: #ff9d00;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+#shouye .main .content .right .main3 .ziti .span ul li:nth-child(4) .yonghu {
+  color: #ff9d00;
+  display: inline-block;
+  margin-left: 120px;
+}
+
+#shouye .main .content .right .main3 .ziti .span ul li:nth-child(2)i {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  background: url(../images/s1.jpeg);
+}
+
+#shouye .main .content .right .main3 .tu {
+  width: 40px;
+  height: 33px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-image: url(../images/index-sprites9.png);
+  background-position: -60px 0px;
+}
+
+#shouye .main .content .right .main3:hover {
+  background: #f6f6f6;
+}
+
+#shouye .main .content .right .main3:hover .ziti .p20 {
+  color: #ff9d00;
+}
+
+#shouye .footer {
+  height: 600px;
+  width: 100%;
+  background: #3c3c3c;
+}
+
+#shouye .footer .content {
+  width: 1120px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#shouye .footer .content .main1 {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#shouye .footer .content .main1 .left {
+  width: 700px;
+  margin-top: 50px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#shouye .footer .content .main1 .left ul {
+  width: 200px;
+  height: 100%;
+}
+
+#shouye .footer .content .main1 .left ul li {
+  font-size: 12px;
+  line-height: 30px;
+  color: #c2c2c2;
+}
+
+#shouye .footer .content .main1 .left ul li span {
+  color: #ff9d00;
+}
+
+#shouye .footer .content .main1 .right {
+  width: 450px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#shouye .footer .content .main1 .right .box1 {
+  width: 95px;
+  height: 100%;
+  font-size: 12px;
+  color: #c2c2c2;
+  margin-top: 50px;
+}
+
+#shouye .footer .content .main1 .right .box1 span {
+  width: 95px;
+  height: 95px;
+  display: block;
+  background: url(../images/12.png);
+  background-size: 100% 100%;
+}
+
+#shouye .footer .content .main2 {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#shouye .footer .content .main2 .p18 {
+  font-size: 18px;
+  line-height: 22px;
+  color: #bcbcbc;
+}
+
+#shouye .footer .content .main2 .tu {
+  width: 115px;
+  height: 28px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#shouye .footer .content .main2 .tu .span1 {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  background: url(../images/mfw-footer-sprite7.png);
+  background-position: 0px 0px;
+}
+
+#shouye .footer .content .main2 .tu .span2 {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  background: url(../images/mfw-footer-sprite7.png);
+  background-position: -30px 0px;
+}
+
+#shouye .footer .content .main2 .tu .span3 {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  background: url(../images/mfw-footer-sprite7.png);
+  background-position: -60px 0px;
+}
+
+#shouye .footer .content .main3 .ziti {
+  padding: 30px 0px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #c2c2c2;
+  white-space: pre-wrap;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+#shouye .footer .content .main4 {
+  height: auto;
+  display: flex;
+}
+
+#shouye .footer .content .main4 .logo {
+  width: 150px;
+  display: inline-block;
+  height: 32px;
+  background: url(../images/mfw-footer-sprite7.png);
+  background-position: 0px -35px;
+  margin-top: 20px;
+}
+
+#shouye .footer .content .main4 .zi {
+  width: 800px;
+}
+
+#shouye .footer .content .main4 .zi .p10 {
+  font-size: 10px;
+  color: #c2c2c2;
+  line-height: 16px;
+  display: inline-block;
+}

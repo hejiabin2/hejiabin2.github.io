@@ -1,0 +1,720 @@
+.content{
+    width: 1120px;
+    height: auto;
+    margin: auto;
+ 
+}
+
+
+#shouye{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+   
+    .head{
+        width: 100%;
+        height: 60px;
+        .content{
+            width: 1120px;
+            height: 60px;
+            margin: auto;
+            
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            .logo{
+                width: 120px;
+                height: 33px;
+                // margin-right: 50px;
+                background: url(../images/header-small.png) no-repeat 0 0;
+            }
+            .list{
+                height: 60px;
+                display: flex;
+                a{display: block;color: #333333;}
+                a li{
+                height: 60px;
+                padding: 0px 25px;
+                font-size: 14px;
+                line-height: 60px;
+                text-align: center;
+
+                
+                }
+                 a:hover {
+                    border-bottom: 4px solid #ff9d00;
+                    color: #ff9d00;
+                }
+                
+            }
+            .list2{
+                width: 200px;
+                height: 60px;
+                display: flex;
+                align-items: center;
+
+                .list2-1{
+                    width: 140px;
+                   display: flex;
+                   justify-content: space-around;
+                   align-items: center;
+                   a{display: block;}
+                   .span1{
+                       width: 28px;
+                       height: 28px;
+                       background: url(../images/header-sprites9.png);
+                       background-position: 0px -50px;
+                       cursor: pointer;
+                   }
+                   .span1:hover{
+                       background-position: 0px -80px;
+                   }
+                   .span2{
+                    width: 28px;
+                    height: 28px;
+                    background: url(../images/header-sprites9.png);
+                    background-position: -30px -50px;
+                }
+                .span2:hover{
+                    background-position: -30px -80px;
+                }
+                .span3{
+                    width: 28px;
+                    height: 28px;
+                    background: url(../images/header-sprites9.png);
+                    background-position: 0px -165px;
+                }
+                .span3:hover{
+                    background-position: -30px -165px;
+                }
+                .span4 a{
+                    font-size: 14px;
+                    padding-right: 10px;
+                    color: #ff9d00;
+                }
+                .span4:hover a{
+                   border-bottom: 2px solid  #ff9d00;
+                
+                }
+            }
+                 .list2-2{
+                     border-left: 1px solid #ccc;
+                     font-size: 14px;
+                     a{display: block;padding: 0px 10px;
+                       color: #ff9d00;
+                       }
+                       a:hover{
+                           border-bottom: 2px solid #ff9d00;
+                       }
+                 }
+        }
+      
+    }
+}
+    .banner{
+        width: 100%;
+        height: 450px;
+        overflow: hidden;
+        .beijing{
+            width: 100%;
+            height: 450px;
+            overflow: hidden;
+            float: left;
+            li{
+                width: 100%;
+                height: 450px;
+                img{display: block;
+                width: 100%;height: 100%;}
+                // overflow: hidden;
+            }
+        }
+        img{width: 100%;
+             height:450px;float: left;
+
+        }
+        .content{
+            width: 1120px;
+            height: 450px;
+            margin: auto;
+            position: relative;
+            .nav{
+                width: 110px;
+                height: 340px;
+                position: absolute;
+                top: 35px;
+                right: 0px;
+                a{
+                    display: block;
+                    li{
+                        width: 110px;
+                        height: 60px;
+                        margin-top: 10px;
+                        img{width:100%;height: 100%;}
+                    }
+                    li:hover{
+                        border: 2px solid #ff9d00;
+                    }
+                }
+              
+            }
+            .ziti{
+                font-size: 22px;
+                display: inline-block;
+                color: white;
+                position: absolute;
+                top: 30px;
+                left: 20px;
+            }
+            .kuang{
+                width: 540px;
+                height: 90px;
+                position: absolute;
+                bottom: 55px;
+                left: 300px;
+                background-color: rgba(0, 0, 0, 0.5);
+                 
+                
+            }
+        }
+
+     
+    }
+    .main{
+        width: 100%;
+        height: auto;
+        .content{
+            width: 1120px;
+            height: auto;
+            margin: auto;
+            display: flex;
+            column-count: 2;
+            justify-content: space-around;
+            column-span: none;
+            .left{
+                width: 260px;
+                height: auto;
+                // background:darkblue;
+                .main1{
+                    width: 100%;
+                    height: auto;
+                  
+                    .top{  display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        h3{font-size: 18px;
+                            line-height: 66px;
+                              display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                        color: #333333;
+                        // float: left;
+                    display: inline-block;}
+                    .p12{
+                        font-size: 12px;
+                        display: inline-block;
+                        color: #999999;
+                        line-height: 12px;
+                        // float: right;
+                        
+                    }
+                    .p12:hover{border-bottom: 1px solid #999;}
+                    }
+                   
+            .tu{
+                width: 100%;
+                height: 160px;
+                img{display: block;width: 100%;height: 100%;}
+            }
+            .bootm{height: 100px;
+                    padding: 10px 15px;
+                    .p16{
+                        font-size: 16px;
+                        color: #333333;
+
+                    }
+                    .p16:hover{color: #ff9d00;border-bottom: 1px solid #ff9d00;} 
+                    .p12{
+                        font-size: 12px;
+                        color: #666;
+                        margin-top: 15px;
+                    }      
+            }
+                }
+                .main2{
+                    width: 100%;
+                    height: auto;
+                    
+                    .top{  display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        h3{font-size: 18px;
+                            line-height: 66px;
+                              display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                        color: #333333;
+                        // float: left;
+                    display: inline-block;}
+                    .p12{
+                        font-size: 12px;
+                        display: inline-block;
+                        color: #999999;
+                        line-height: 12px;
+                        // float: right;
+                        
+                    }
+                    .p12:hover{border-bottom: 1px solid #999;}
+                    }
+                    .tu{
+                        width: 100%;
+                        height: 160px;
+                        img{display: block;width: 100%;height: 100%;}
+                    }
+                    .bootm{
+                        height: auto;
+                        .p16{ color: #333333; font-size: 16px;}
+                        .p16:hover{color: #ff9d00;border-bottom: 1px solid #ff9d00;} 
+                        
+                        .p12{color: #333333;font-size: 12px;line-height: 22px; span{color: #ff9d00}}
+                    }
+                }
+                .main3{
+                    width: 100%;
+                    height: auto;
+                      
+                    .top{  display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        h3{font-size: 18px;
+                            line-height: 66px;
+                              display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                        color: #333333;
+                        // float: left;
+                    display: inline-block;}
+                    .p12{
+                        font-size: 12px;
+                        display: inline-block;
+                        color: #999999;
+                        line-height: 12px;
+                        // float: right;
+                        
+                    }
+                    .p12:hover{border-bottom: 1px solid #999;}
+                    }
+                    .tu{
+                        width: 100%;
+                        height: 160px;
+                        img{display: block;width: 100%;height: 100%;}
+                    }
+                    .p16{color: #ff9d00;font-size: 16px;display: block;}
+                    .p14{font-size: 14px;color: #79a4e2;}
+                }
+                .main4{
+                    width: 100%;
+                    height: auto;
+                        
+                    .top{  display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        h3{font-size: 18px;
+                            line-height: 66px;
+                              display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                        color: #333333;
+                        // float: left;
+                    display: inline-block;}
+                    .p12{
+                        font-size: 12px;
+                        display: inline-block;
+                        color: #999999;
+                        line-height: 12px;
+                        // float: right;
+                        
+                    }
+                    .p12:hover{border-bottom: 1px solid #999;}
+                    }
+                    .tu{
+                        width: 100%;
+                        height: 160px;
+                        img{display: block;width: 100%;height: 100%;}
+                    }
+                }
+                .main5{
+                    width: 100%;
+                    height: auto;
+                        
+                    .top{  display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        h3{font-size: 18px;
+                            line-height: 66px;
+                              display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                        color: #333333;
+                        // float: left;
+                    display: inline-block;}
+                    .p12{
+                        font-size: 12px;
+                        display: inline-block;
+                        color: #999999;
+                        line-height: 12px;
+                        // float: right;
+                        
+                    }
+                    .p12:hover{border-bottom: 1px solid #999;}
+                    }
+                    .tu{
+                        width: 100%;
+                        height: 130px;
+                        img{display: block;width: 100%;height: 100%;}
+                    }
+                    .zixu{
+                        font-size: 18px;
+                        color: #4c3333;
+                        line-height: 38px;
+                        font-weight: 600;
+                    }
+                    ul{
+                        width: 100%;
+                        height: auto;
+                        li{
+                            font-size: 12px;
+                            color: #666666;
+                            line-height: 30px;
+                            a{
+                                font-size: 12px;
+                            color: #666666;
+                            line-height: 30px;
+                            }
+                            a:hover{
+                                border-bottom: 1px solid #666;
+                            }
+                        }
+                    }
+                }
+            }
+            .right{
+                width: 715px;
+                height: auto;
+                // background: darkcyan;
+                .main1{
+                    width: 100%;
+                    height: auto;
+                    .top{font-size: 18px;color: #4c3333;
+                         height: 60px;line-height: 60px;}
+                         .footerr{
+                             width: 100%;
+                             height: auto;
+                             display: flex;
+                             justify-content: space-between;
+                             .box{
+                                 width: 220px;
+                                 height: 240px;
+                                 img{
+                                     width: 100%;
+                                     height: 136px;
+                                     display: block;
+
+
+                                 }
+                                 .ziti{
+                                     height: 100px;
+                                     padding: 0px 10px;
+                                     .p14{
+                                         font-size: 14px;
+                                         line-height: 22px;
+
+                                     }
+                                     .p16{
+                                         font-size: 16px;
+                                         color: #ff9d00;
+                                         float: right;
+                                         font-weight: 800;
+                                     }
+                                 }
+                             }
+                         }
+                }
+                .main2{
+                    height: 60px;
+                    display: flex;
+                    .zuo{
+                        width: 560px;
+                        height: 100%;
+                        ul{width: 380px;
+                        height: 100%;
+                        display: flex;
+                        justify-content: space-around;
+                         li{
+                             padding: 0px 10px;
+                             font-size: 20px;
+                             color: #ff9d00;
+
+                         }    
+                    }
+                    }
+                    .you{
+                        width: 140px;
+                        position: relative;
+                        height: 70%;
+                        background: #ff9d00; 
+                        span{background:url(../images/header-sprites9.png);
+                            background-position: -120px -50px;
+                            background-repeat: no-repeat;
+                            width: 18px;height: 18px;
+                        display: block;
+                    position: absolute;
+                top: 13px;left: 27px;}
+                        font-size: 16px;
+                        color: white;
+                        text-align: center;
+                        line-height: 40px;
+                        border-radius: 10px;
+                        
+                        
+                    }
+                    .you:hover{
+                        background: orangered;
+                    }
+                }
+                .main3{
+                    width: 702px;
+                    padding: 10px 10px;
+                    position: relative;
+                    height: 150px;
+                    display: flex;
+                    justify-content: space-between;
+                    img{width: 220px;
+                    height: 150px;
+                display: block}
+                   .ziti{
+                       width: 455px;
+                       height: 100%;
+                       .p20{
+                           font-size: 20px;
+                           line-height: 30px;
+                           color: #333333;
+                       }
+                       .p12{
+                           font-size: 12px;
+                           line-height: 20px;
+                           color: #666666;
+                       }
+                       .span{
+                           font-size: 12px;
+                        //    position: relative;
+                           line-height: 12px;
+                           color: #666;
+                           width: auto;
+                           height: 20px;
+                          position: absolute;
+                          bottom: 10px;
+
+                           a{font-size: 12px;
+                            line-height: 12px;
+                            color: #666;}
+                            ul{
+                                width: 100%;
+                                display: flex;
+                                li{ span{
+                                    background: url(../images/index-sprites9.png);
+                                    background-repeat: no-repeat;
+                                    width:18px;
+                                    height: 18px;
+                                    position: absolute;
+                                    left: 0px;
+                                  
+                                    top: 0px;
+                                }
+                                 
+                                padding: 0px 20px;
+                                position: relative;
+                       
+                                }
+                               
+                            }
+                            ul li:nth-child(1) span{
+                                background-position: 0px -50px;
+                            }
+                            ul li:nth-child(3) span{
+                                background-position: -30px -50px;
+                            }
+                            ul li:nth-child(2) .yonghu{
+                               color: #ff9d00;
+                               display: inline-block;
+                            //    background: url(../images/s1.jpeg);
+                               background-repeat: no-repeat;
+                            }
+                            ul li:nth-child(4) .yonghu{
+                                color: #ff9d00;
+                                display: inline-block;
+                                margin-left: 120px;
+                             }
+                             ul li:nth-child(2)i{
+                                 width: 18px;
+                                 height: 18px;
+                                 margin-right: 10px;
+                                 background: url(../images/s1.jpeg);
+                             }
+                       }
+
+                   }
+                   .tu{
+                       width: 40px;
+                       height: 33px;
+                       position: absolute;
+                    bottom: 10px;
+                    right: 10px;
+                    background-image: url(../images/index-sprites9.png);
+                    background-position: -60px 0px;
+                   }
+                  
+                }
+                .main3:hover{
+                    background: #f6f6f6;
+                }
+                .main3:hover .ziti .p20{
+                    color: #ff9d00;
+                }
+            }
+        }
+    }
+    .footer{
+        height: 600px;
+        width: 100%;
+        background: #3c3c3c;
+        .content{
+            width: 1120px;
+            height: auto;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .main1{
+                height: auto;
+                display: flex;
+                justify-content: space-between;
+                .left{
+                    width: 700px;
+                    margin-top: 50px;
+                    height: 100%;
+                    display: flex;
+                    justify-content: space-around;
+                    ul{
+                        width: 200px;
+                        height: 100%;
+                        li{
+                            font-size: 12px;
+                            line-height: 30px;
+                            color: #c2c2c2;
+                            span{color: #ff9d00}
+                        }
+                    }
+                }
+                .right{
+                   width: 450px;
+                   display: flex;
+                   justify-content: space-around;
+                   .box1{
+                       width: 95px;
+                       height: 100%;
+                       font-size: 12px;
+                       color: #c2c2c2;
+                       margin-top: 50px;
+
+                        span{
+                            width: 95px;
+                            height: 95px;
+                            display: block;
+                            background: url(../images/12.png);
+                            background-size: 100% 100%;
+                        }
+
+                   }
+                   
+                    
+                }
+                 
+
+            }
+            .main2{
+                height: 120px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .p18{
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #bcbcbc;
+                    
+                }
+                .tu{
+                    width: 115px;
+                    height: 28px;
+                    margin-top: 20px;
+                    display: flex;
+                    justify-content: space-between;
+                    .span1{
+                        width: 28px;
+                        height: 28px;
+                        display: inline-block;
+                         background: url(../images/mfw-footer-sprite7.png);
+                         background-position: 0px 0px;
+
+                    }
+                    .span2{
+                        width: 28px;
+                        height: 28px;
+                        display: inline-block;
+                         background: url(../images/mfw-footer-sprite7.png);
+                         background-position: -30px 0px;
+
+                    }
+                    .span3{
+                        width: 28px;
+                        height: 28px;
+                        display: inline-block;
+                         background: url(../images/mfw-footer-sprite7.png);
+                         background-position: -60px 0px;
+
+                    }
+                }
+            }
+            .main3{
+                .ziti{
+                    padding: 30px 0px;
+                    font-size: 12px;
+                    line-height: 22px;
+                    color: #c2c2c2;
+                    white-space:pre-wrap;
+                    border-top: 1px solid #ccc;
+                    border-bottom: 1px solid #ccc;
+
+                }
+            }
+            .main4{
+                height: auto;
+                display: flex;
+                 
+                .logo{
+                    width: 150px;
+                    display: inline-block; 
+                    height: 32px;
+                    background: url(../images/mfw-footer-sprite7.png);
+                    background-position: 0px -35px;
+                    margin-top: 20px;
+                }
+                .zi{width: 800px;
+                    .p10{font-size: 10px; color: #c2c2c2;line-height: 16px;display: inline-block;}
+                }
+               
+            }
+        }
+    }
+}

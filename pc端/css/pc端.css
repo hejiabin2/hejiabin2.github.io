@@ -1,0 +1,884 @@
+#shouye {
+  width: 100%;
+  height: 100%;
+}
+
+#shouye .clearfix::after {
+  content: "";
+  display: block;
+  height: 0px;
+  overflow: hidden;
+  visibility: hidden;
+  clear: both;
+}
+
+@font-face {
+  #shouye {
+    font-family: "icon";
+    src: url("../font/fontello.eot");
+    src: url("../font/fontello.svg");
+    src: url("../font/fontello.ttf");
+    src: url("../font/fontello.woff");
+    src: url("../font/iconfont.css");
+  }
+  #shouye .shouru::after {
+    content: "\e82e";
+  }
+  #shouye .iconfont {
+    font-family: icon !important;
+  }
+}
+
+#shouye .content {
+  width: 1150px;
+  height: auto;
+  margin: auto;
+}
+
+#shouye .header {
+  width: 100%;
+  height: 60px;
+}
+
+#shouye .header .content {
+  width: 1150px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#shouye .header .content .logo {
+  width: 300px;
+  height: 60px;
+  background: url(../images/logo2.png);
+  background-size: 100% 100%;
+  text-indent: -999px;
+  display: inline-block;
+}
+
+#shouye .header .content .clearfix::after {
+  content: "";
+  display: block;
+  height: 0px;
+  overflow: hidden;
+  visibility: hidden;
+  clear: both;
+}
+
+#shouye .header .content .nav {
+  display: flex;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+}
+
+#shouye .header .content .nav .clearfix::after {
+  content: "";
+  display: block;
+  height: 0px;
+  overflow: hidden;
+  visibility: hidden;
+  clear: both;
+}
+
+#shouye .header .content .nav li {
+  font-size: 14px;
+  color: #b08b7b;
+  line-height: 60px;
+  text-align: center;
+  padding: 0px 10px;
+  height: 100%;
+  transition: border-bottom 2s;
+  position: relative;
+}
+
+#shouye .header .content .nav li a {
+  display: inline-block;
+  color: black;
+  height: 100%;
+}
+
+#shouye .header .content ul li::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  background: blue;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0px;
+  transition: width 1s;
+}
+
+#shouye .header .content ul li:hover::after {
+  width: 100%;
+}
+
+#shouye .header .content .you {
+  width: 88px;
+  height: 30px;
+  border: 1px solid #ac91ec;
+  color: #ac91ec;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+#shouye .banner {
+  background: url(../images/7.jpg);
+  background-position: center center;
+  background-size: 100% 100%;
+  width: 100%;
+  cursor: pointer;
+  height: 570px;
+}
+
+#shouye .banner .content {
+  width: 1150px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+#shouye .banner .content h2 {
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+#shouye .banner .content .ma {
+  width: 165px;
+  height: 165px;
+  display: inline-block;
+  position: absolute;
+  top: 170px;
+  right: 490px;
+}
+
+#shouye .banner .content .p14 {
+  font-size: 14px;
+  color: #757575;
+  position: absolute;
+  top: 340px;
+  right: 500px;
+}
+
+#shouye .main1 {
+  width: 100%;
+  height: auto;
+}
+
+#shouye .main1 .content {
+  width: 1150px;
+  height: auto;
+  margin: auto;
+}
+
+#shouye .main1 .content .main1-top {
+  width: 100%;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#shouye .main1 .content .main1-top h2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#shouye .main1 .content .main1-top .xian {
+  width: 110px;
+  height: 4px;
+  margin-top: 10px;
+  position: relative;
+}
+
+#shouye .main1 .content .main1-top .xian .zuo {
+  width: 50px;
+  height: 2px;
+  display: inline-block;
+  background: black;
+  position: absolute;
+  left: 0px;
+}
+
+#shouye .main1 .content .main1-top .xian .zhong {
+  display: inline-block;
+  width: 2px;
+  height: 2px;
+  background: black;
+  border-radius: 150%;
+  position: absolute;
+  left: 54px;
+}
+
+#shouye .main1 .content .main1-top .xian .you {
+  width: 50px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  right: 0px;
+  display: inline-block;
+}
+
+#shouye .main1 .content .main1-list {
+  width: 100%;
+  height: auto;
+}
+
+#shouye .main1 .content .main1-list ul li:nth-child(1) span {
+  background-position: 0px 0px;
+}
+
+#shouye .main1 .content .main1-list ul li:nth-child(2) span {
+  background-position: 0px -90px;
+}
+
+#shouye .main1 .content .main1-list ul li:nth-child(3) span {
+  background-position: 0px -180px;
+}
+
+#shouye .main1 .content .main1-list ul li:nth-child(4) span {
+  background-position: 0px -270px;
+}
+
+#shouye .main1 .content .main1-list ul li:nth-child(5) span {
+  background-position: 0px -360px;
+}
+
+#shouye .main1 .content .main1-list ul li:nth-child(6) span {
+  background-position: 0px -450px;
+}
+
+#shouye .main1 .content .main1-list ul li:nth-child(7) span {
+  background-position: 0px -540px;
+}
+
+#shouye .main1 .content .main1-list ul li:nth-child(8) span {
+  background-position: 0px -630px;
+}
+
+#shouye .main1 .content .main1-list ul li:nth-child(1):hover span {
+  background-position: -90px 0px;
+}
+
+#shouye .main1 .content .main1-list ul li:nth-child(2):hover span {
+  background-position: -90px -90px;
+}
+
+#shouye .main1 .content .main1-list ul li:nth-child(3):hover span {
+  background-position: -90px -180px;
+}
+
+#shouye .main1 .content .main1-list ul li:nth-child(4):hover span {
+  background-position: -90px -270px;
+}
+
+#shouye .main1 .content .main1-list ul li:nth-child(5):hover span {
+  background-position: -90px -360px;
+}
+
+#shouye .main1 .content .main1-list ul li:nth-child(6):hover span {
+  background-position: -90px -450px;
+}
+
+#shouye .main1 .content .main1-list ul li:nth-child(7):hover span {
+  background-position: -90px -540px;
+}
+
+#shouye .main1 .content .main1-list ul li:nth-child(8):hover span {
+  background-position: -90px -630px;
+}
+
+#shouye .main1 .content .main1-list ul {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+
+#shouye .main1 .content .main1-list ul li {
+  width: 170px;
+  height: 180px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  flex-shrink: 0;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#shouye .main1 .content .main1-list ul li span {
+  display: inline-block;
+  margin: auto;
+  width: 81px;
+  height: 81px;
+  background: url(../images/list.png);
+}
+
+#shouye .main1 .content .main1-list ul li .ziti {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+#shouye .main1 .content .main1-list ul li .ziti h3 {
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+#shouye .main1 .content .main1-list ul li .ziti .p12 {
+  font-size: 12px;
+  margin-top: 5px;
+  line-break: 22px;
+  color: #757575;
+}
+
+#shouye .main2 {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  padding-top: 20px;
+}
+
+#shouye .main2 .main2-left {
+  width: 50%;
+  height: 560px;
+  background: url(../images/4.jpg);
+  background-size: 100% 100%;
+}
+
+#shouye .main2 .main2-right {
+  width: 50%;
+  height: 550px;
+  box-sizing: border-box;
+  background: #f6f6f6;
+  display: flex;
+  padding-top: 75px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#shouye .main2 .main2-right h4 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#shouye .main2 .main2-right .box {
+  width: 430px;
+  height: 80px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#shouye .main2 .main2-right .box .ziti {
+  width: 300px;
+  height: 100%;
+  float: right;
+}
+
+#shouye .main2 .main2-right .box .ziti .p14 {
+  color: #363636;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#shouye .main2 .main2-right .box .ziti .p12 {
+  color: #adadad;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+#shouye .main3 {
+  width: 100%;
+  height: auto;
+}
+
+#shouye .main3 .content {
+  width: 1150px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#shouye .main3 .content .main1-top {
+  width: 100%;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#shouye .main3 .content .main1-top h2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#shouye .main3 .content .main1-top .xian {
+  width: 110px;
+  height: 4px;
+  margin-top: 10px;
+  position: relative;
+}
+
+#shouye .main3 .content .main1-top .xian .zuo {
+  width: 50px;
+  height: 2px;
+  display: inline-block;
+  background: black;
+  position: absolute;
+  left: 0px;
+}
+
+#shouye .main3 .content .main1-top .xian .zhong {
+  display: inline-block;
+  width: 2px;
+  height: 2px;
+  background: black;
+  border-radius: 150%;
+  position: absolute;
+  left: 54px;
+}
+
+#shouye .main3 .content .main1-top .xian .you {
+  width: 50px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  right: 0px;
+  display: inline-block;
+}
+
+#shouye .main3 .content .zhong {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+#shouye .main3 .content .zhong ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#shouye .main3 .content .zhong ul li {
+  width: 270px;
+  height: 200px;
+  position: relative;
+  cursor: pointer;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+
+#shouye .main3 .content .zhong ul li img {
+  width: 270px;
+  height: 200px;
+}
+
+#shouye .main3 .content .zhong ul li .zhezhao {
+  width: 270px;
+  height: 200px;
+  background: black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  animation-name: move;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: none;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+
+#shouye .main3 .content .zhong ul li .zhezhao .p14 {
+  font-size: 18px;
+  line-height: 18px;
+  color: white;
+  position: absolute;
+  left: 100px;
+  bottom: 125px;
+}
+
+#shouye .main3 .content .zhong ul li .zhezhao .jianji1 {
+  width: 100px;
+  height: 25px;
+  border: 1px solid white;
+  position: absolute;
+  bottom: 80px;
+  left: 80px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 25px;
+  color: white;
+}
+
+#shouye .main3 .content .zhong ul li .zhezhao .jiazai {
+  width: 100px;
+  height: 25px;
+  background: white;
+  position: absolute;
+  bottom: 80px;
+  left: 80px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 25px;
+  color: black;
+  transition: width 0.5s;
+  transition-timing-function: linear;
+  animation-name: jiazai;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  display: none;
+}
+
+@keyframes jiazai {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 100px;
+  }
+}
+
+#shouye .main3 .content .zhong ul li .dianji1:hover .jiazai {
+  display: block;
+  width: 100%;
+}
+
+#shouye .main3 .content .zhong ul li .dianji1:hover {
+  display: none;
+}
+
+@keyframes move {
+  0% {
+    background: black;
+  }
+  100% {
+    background: rgba(0, 0, 0, 0.5);
+  }
+}
+
+#shouye .main3 .content .zhong ul li:hover .zhezhao {
+  display: block;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#shouye .main3 .content .dianji {
+  width: 110px;
+  height: 40px;
+  background: #ac92ec;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  line-height: 40px;
+  margin-top: 40px;
+}
+
+#shouye .main3 .content .dianji:hover {
+  background: #6e40d8;
+}
+
+#shouye .main3 .content .botm {
+  font-size: 16px;
+  width: 600px;
+  position: relative;
+  text-align: center;
+  color: #757586;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+#shouye .main3 .content .botm .wen {
+  font-size: 16px;
+  width: 600px;
+}
+
+#shouye .main3 .content .botm .xian1 {
+  width: 225px;
+  height: 1px;
+  background: #363636;
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+}
+
+#shouye .main3 .content .botm .xian2 {
+  width: 225px;
+  height: 1px;
+  background: #363636;
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+}
+
+#shouye .main4 {
+  width: 100%;
+  height: auto;
+  background: #f6f6f6;
+}
+
+#shouye .main4 .content {
+  width: 1150px;
+  height: auto;
+  margin: auto;
+}
+
+#shouye .main4 .content .main4-top {
+  width: 100%;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#shouye .main4 .content .main4-top h2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#shouye .main4 .content .main4-top .xian {
+  width: 110px;
+  height: 4px;
+  margin-top: 10px;
+  position: relative;
+}
+
+#shouye .main4 .content .main4-top .xian .zuo {
+  width: 50px;
+  height: 2px;
+  display: inline-block;
+  background: black;
+  position: absolute;
+  left: 0px;
+}
+
+#shouye .main4 .content .main4-top .xian .zhong {
+  display: inline-block;
+  width: 2px;
+  height: 2px;
+  background: black;
+  border-radius: 150%;
+  position: absolute;
+  left: 54px;
+}
+
+#shouye .main4 .content .main4-top .xian .you {
+  width: 50px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  right: 0px;
+  display: inline-block;
+}
+
+#shouye .main4 .content .shipin {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+#shouye .main4 .content .shipin .yi {
+  width: 544px;
+  height: 360px;
+  display: block;
+}
+
+#shouye .main5 {
+  width: 100%;
+  height: 455px;
+  background: url(../images/1.jpg);
+}
+
+#shouye .main5 .content {
+  width: 1150px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+#shouye .main5 .content h4 {
+  font-size: 24px;
+  color: white;
+  margin-top: 120px;
+}
+
+#shouye .main5 .content p {
+  font-size: 12px;
+  margin-top: 40px;
+  line-height: 24px;
+  color: white;
+  width: 412px;
+}
+
+#shouye .main6 {
+  width: 100%;
+  height: auto;
+}
+
+#shouye .main6 .content {
+  width: 1150px;
+  height: auto;
+  margin: auto;
+}
+
+#shouye .main6 .content .main4-top {
+  width: 100%;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#shouye .main6 .content .main4-top h2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#shouye .main6 .content .main4-top p {
+  font-size: 14px;
+  line-height: 18px;
+  color: #757575;
+  margin-top: 15px;
+}
+
+#shouye .main6 .content .main4-top .xian {
+  width: 110px;
+  height: 4px;
+  margin-top: 10px;
+  position: relative;
+}
+
+#shouye .main6 .content .main4-top .xian .zuo {
+  width: 50px;
+  height: 2px;
+  display: inline-block;
+  background: black;
+  position: absolute;
+  left: 0px;
+}
+
+#shouye .main6 .content .main4-top .xian .zhong {
+  display: inline-block;
+  width: 2px;
+  height: 2px;
+  background: black;
+  border-radius: 150%;
+  position: absolute;
+  left: 54px;
+}
+
+#shouye .main6 .content .main4-top .xian .you {
+  width: 50px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  right: 0px;
+  display: inline-block;
+}
+
+#shouye .main6 .content .form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+#shouye .main6 .content .form input {
+  width: 520px;
+  height: 45px;
+  font-size: 12px;
+  color: #363636;
+  padding: 0px 10px;
+  margin-top: 20px;
+  border: 1px solid #d8d8d8;
+}
+
+#shouye .main6 .content .form .anniu {
+  width: 79px;
+  height: 38px;
+  background: #d8d8d8;
+  position: absolute;
+  top: 92px;
+  cursor: pointer;
+  margin-top: 0px;
+  color: #363636;
+  left: 475px;
+}
+
+#shouye .main6 .content .form .anniu:hover {
+  background: orange;
+}
+
+#shouye .main6 .content .form .dian {
+  width: 110px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+  line-height: 40px;
+  color: white;
+  margin-top: 30px;
+  cursor: pointer;
+  background: #ac91ec;
+  margin-bottom: 70px;
+}
+
+#shouye .main6 .content .form .dian:hover {
+  background: #6e40d8;
+}
+
+#shouye .footer {
+  background: #333;
+  width: 100%;
+  height: 110px;
+  text-align: center;
+}
+
+#shouye .footer p {
+  font-size: 12px;
+  line-height: 110px;
+  color: #9b9b9b;
+}
